@@ -1,0 +1,1 @@
+Some of my subbed Korean variety videos. Please check facebook.com/yjsubs for more examples.
