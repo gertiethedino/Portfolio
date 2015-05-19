@@ -1,0 +1,1036 @@
+<aiml version="1.0">
+
+<!-- NOTE THAT "quit" is reserved in the interpreter to quit the program -->
+
+<category>
+	<pattern>LOAD AIML B</pattern>
+	<template>
+		Hello, welcome to Chick-fil-a and how can I help you?
+	</template>
+</category>
+<category>
+	<pattern>ONE</pattern>
+	<that>* HOW CAN I HELP YOU</that>
+	<template>
+		<random>
+			<li>Number one and what else would you like?</li>
+			<li>Number one and what would you like a drink?</li>
+			<li>Number one and would you like some fries?</li>
+		</random>
+	</template>
+</category>
+<category>
+	<pattern>HELP</pattern>
+	<that>* HOW CAN I HELP YOU</that>
+	<template>
+		<random>
+			<li>You can order 1: Chicken Sandwich or 2: Nuggets, with fries and drinks(Coke or Sprite), can I help you?</li>
+		</random>
+	</template>
+</category>
+<category>
+	<pattern>ONE</pattern>
+	<that>* WHAT ELSE WOULD YOU LIKE</that>
+	<template>
+		<random>
+			<li>Number one and what would you like a drink?</li>
+			<li>Number one and would you like some fries?</li>
+		</random>
+	</template>
+</category>
+<category>
+	<pattern>TWO</pattern>
+	<that>* HOW CAN I HELP YOU</that>
+	<template>
+		<random>
+			<li>How many pieces will it be?</li>
+		</random>
+	</template>
+</category>
+<category>
+	<pattern>TWO</pattern>
+	<that>* ELSE WOULD YOU LIKE</that>
+	<template>
+		<random>
+			<li>How many pieces will it be?</li>
+		</random>
+	</template>
+</category>
+<category>
+	<pattern>FRIES</pattern>
+	<that>* HOW CAN I HELP YOU</that>
+	<template>
+		<random>
+			<li>So what size of fries will it be?</li>
+		</random>
+	</template>
+</category>
+<category>
+	<pattern>DRINK</pattern>
+	<that>* HOW CAN I HELP YOU</that>
+	<template>
+		<random>
+			<li>So what kind of drink will it be?</li>
+		</random>
+	</template>
+</category>
+<category>
+	<pattern>ONE</pattern>
+	<that>* ELSE WOULD YOU LIKE</that>
+	<template>
+		<random>
+			<li>Number one and what else would you like?</li>
+			<li>Number one and would you like a drink?</li>
+			<li>Number one and would you like some fries?</li>
+		</random>
+	</template>
+</category>
+<category>
+	<pattern>*</pattern>
+	<that>* ELSE WOULD YOU LIKE</that>
+	<template>
+		<random>
+			<li>Pardon me, what else would you like?</li>
+		</random>
+	</template>
+</category>
+<category>
+	<pattern>NO</pattern>
+	<that>* ELSE WOULD YOU LIKE</that>
+	<template>
+		<random>
+			<li>Is that all?</li>
+		</random>
+	</template>
+</category>
+<category>
+	<pattern>DRINK</pattern>
+	<that>* ELSE WOULD YOU LIKE</that>
+	<template>
+		<random>
+			<li>So what kind of drink would you like?</li>
+		</random>
+	</template>
+</category>
+<category>
+	<pattern>YES</pattern>
+	<that>* WOULD YOU LIKE A DRINK</that>
+	<template>
+		<random>
+			<li>What kind of drink would you like?</li> 
+		</random>
+	</template>
+</category>
+<category>
+	<pattern>*</pattern>
+	<that>* WOULD YOU LIKE A DRINK</that>
+	<template>
+		<random>
+			<li>Excuse me? What kind of drink would you like?</li> 
+		</random>
+	</template>
+</category>
+<category>
+	<pattern>NO</pattern>
+	<that>* WOULD YOU LIKE A DRINK</that>
+	<template>
+		<random>
+			<li>Is that all?</li> 
+		</random>
+	</template>
+</category>
+<category>
+	<pattern>YES</pattern>
+	<that>* WOULD YOU LIKE SOME FRIES</that>
+	<template>
+		<random>
+			<li>What size of fries would you like?</li> 
+		</random>
+	</template>
+</category>
+<category>
+	<pattern>*</pattern>
+	<that>* WOULD YOU LIKE SOME FRIES</that>
+	<template>
+		<random>
+			<li>Excuse me? What size of fries would you like?</li> 
+		</random>
+	</template>
+</category>
+<category>
+	<pattern>NO</pattern>
+	<that>* WOULD YOU LIKE SOME FRIES</that>
+	<template>
+		<random>
+			<li>Is that all?</li> 
+		</random>
+	</template>
+</category>
+<category>
+	<pattern>COKE</pattern>
+	<template>
+		<random>
+			<li>So what size of drink will it be?</li>
+		</random>
+	</template>
+</category>
+<category>
+	<pattern>SPRITE</pattern>
+	<template>
+		<random>
+			<li>So what size of drink will it be?</li>
+		</random>
+	</template>
+</category>
+<category>
+	<pattern>*</pattern>
+	<that>* SIZE OF DRINK WILL IT BE</that>
+	<template>
+		<random>
+			<li>Pardon me? What size of drink will it be?</li>
+		</random>
+	</template>
+</category>
+<category>
+	<pattern>FRIES</pattern>
+	<template>
+		<random>
+			<li>So what size of fries will it be?</li>
+		</random>
+	</template>
+</category>
+<category>
+	<pattern>*</pattern>
+	<that>* SIZE OF FRIES WILL IT BE</that>
+	<template>
+		<random>
+			<li>Pardon me? What size of fries will it be?</li>
+		</random>
+	</template>
+</category>
+<category>
+	<pattern>THANK</pattern>
+	<template>
+		<random>
+			<li>You're welcome</li>
+		</random>
+	</template>
+</category>
+<category>
+	<pattern>TWO</pattern>
+	<that>* ELSE WOULD YOU LIKE</that>
+	<template>
+		<random>
+			<li>How many pieces will it be?</li> 
+		</random>
+	</template>
+</category>
+<category>
+	<pattern>COKE</pattern>
+	<that>NUMBER ONE AND WHAT ELSE WOULD YOU LIKE</that>
+	<template>
+		<random>
+			<li>So what size of drink will it be?</li> 
+		</random>
+	</template>
+</category>
+<category>
+	<pattern>*</pattern>
+	<that>* ELSE WOULD YOU LIKE</that>
+	<template>
+		<random>
+			<li>Pardon me? What else would you like?</li> 
+		</random>
+	</template>
+</category>
+<category>
+	<pattern>SPRITE</pattern>
+	<that>* ELSE WOULD YOU LIKE</that>
+	<template>
+		<random>
+			<li>So what size of drink will it be?</li> 
+		</random>
+	</template>
+</category>
+<category>
+	<pattern>FRIES</pattern>
+	<that>* ELSE WOULD YOU LIKE</that>
+	<template>
+		<random>
+			<li>So what size of fries will it be?</li> 
+		</random>
+	</template>
+</category>
+<category>
+	<pattern>DRINK</pattern>
+	<that>* ONE AND WHAT ELSE WOULD YOU LIKE</that>
+	<template>
+		<random>
+			<li>So what kind of drink would you like?</li> 
+		</random>
+	</template>
+</category>
+<category>
+	<pattern>COKE</pattern>
+	<that>* KIND OF DRINK WOULD YOU LIKE</that>
+	<template>
+		<random>
+			<li>So what size of drink will it be?</li> 
+		</random>
+	</template>
+</category>
+<category>
+	<pattern>SPRITE</pattern>
+	<that>* KIND OF DRINK WOULD YOU LIKE</that>
+	<template>
+		<random>
+			<li>What size of drink will it be?</li> 
+		</random>
+	</template>
+</category>
+<category>
+	<pattern>COKE</pattern>
+	<that>* ELSE WOULD YOU LIKE</that>
+	<template>
+		<random>
+			<li>So what size of drink will it be?</li> 
+		</random>
+	</template>
+</category>
+<category>
+	<pattern>SPRITE</pattern>
+	<that>* ELSE WOULD YOU LIKE</that>
+	<template>
+		<random>
+			<li>What size of drink will it be?</li> 
+		</random>
+	</template>
+</category>
+<category>
+	<pattern>GRILL</pattern>
+	<template>
+		<random>
+			<li>It would be extra fifty cents than the regular, is it okay for you?</li> 
+		</random>
+	</template>
+</category>
+<category>
+	<pattern>YES</pattern>
+	<that>* TO BE GRILLED</that>
+	<template>
+		<random>
+			<li>It would be extra fifty cents, is it okay for you?</li> 
+		</random>
+	</template>
+</category>
+<category>
+	<pattern>YES</pattern>
+	<that>* IS IT OKAY FOR YOU</that>
+	<template>
+		<random>
+			<li>Then it will be the regular sandwich, what else would you like?</li> 
+		</random>
+	</template>
+</category>
+<category>
+	<pattern>EIGHT</pattern>
+	<that>* MANY PIECES WILL IT BE</that>
+	<template>
+		<random>
+			<li>Eight piece nuggets, and what else would you like?</li>
+			<li>Eight piece nuggets and would you like a drink?</li>
+			<li>Eight piece nuggets, it that all?</li>
+		</random>
+	</template>
+</category>
+<category>
+	<pattern>NO</pattern>
+	<that>* WOULD YOU LIKE A DRINK</that>
+	<template>
+		<random>
+			<li>Is that all?</li>
+		</random>
+	</template>
+</category>
+<category>
+	<pattern>*</pattern>
+	<that>* MANY PIECES WILL IT BE</that>
+	<template>
+		<random>
+			<li>Pardon, how many pieces will it be?</li>
+		</random>
+	</template>
+</category>
+<category>
+	<pattern>TWL</pattern>
+	<that>HOW MANY PIECES WILL IT BE</that>
+	<template>
+		<random>
+			<li>Twelve piece nuggets, and what else would you like?</li>
+			<li>Twelve piece nuggets and would you like a drink?</li>
+			<li>Twelve piece nuggets, is that all?</li>
+		</random>
+	</template>
+</category>
+<category>
+	<pattern>YES</pattern>
+	<that>* YOU LIKE A DRINK</that>
+	<template>
+		<random>
+			<li>So what kind of drink would you like?</li>
+		</random>
+	</template>
+</category>
+<category>
+	<pattern>*</pattern>
+	<that>* SOME FRIES TO THAT</that>
+	<template>
+		<random>
+			<li>Pardon? Would you some fries to that?</li>
+		</random>
+	</template>
+</category>
+<category>
+	<pattern>NO</pattern>
+	<that>* SOME FRIES TO THAT</that>
+	<template>
+		<random>
+			<li>Is that all?</li>
+		</random>
+	</template>
+</category>
+<category>
+	<pattern>SMALL</pattern>
+	<that>* SIZE DRINK WILL IT BE</that>
+	<template>
+		<random>
+			<li>Small Sized drink?</li> 
+		</random>
+	</template>
+</category>
+<category>
+	<pattern>*</pattern>
+	<that>* SIZE DRINK WILL IT BE</that>
+	<template>
+		<random>
+			<li>Pardon? What size drink will it be?</li> 
+		</random>
+	</template>
+</category>
+<category>
+	<pattern>SMALL</pattern>
+	<that>* SIZE OF FRIES WILL IT BE</that>
+	<template>
+		<random>
+			<li>Small Sized fries?</li> 
+		</random>
+	</template>
+</category>
+<category>
+	<pattern>*</pattern>
+	<that>* SIZE OF FRIES WILL IT BE</that>
+	<template>
+		<random>
+			<li>Pardon? What size of fries will it be?</li>
+		</random>
+	</template>
+</category>
+<category>
+	<pattern>SMALL</pattern>
+	<that>* SIZE OF DRINK WILL IT BE</that>
+	<template>
+		<random>
+			<li>Small Sized drink?</li> 
+		</random>
+	</template>
+</category>
+<category>
+	<pattern>MEDIU</pattern>
+	<that>* SIZE OF DRINK WILL IT BE</that>
+	<template>
+		<random>
+			<li>Medium Sized drink?</li> 
+		</random>
+	</template>
+</category>
+<category>
+	<pattern>MEDIU</pattern>
+	<that>* SIZE OF FRIES WILL IT BE</that>
+	<template>
+		<random>
+			<li>Medium Sized fries?</li> 
+		</random>
+	</template>
+</category>
+<category>
+	<pattern>LARGE</pattern>
+	<that>* WHAT SIZE OF DRINK WILL IT BE</that>
+	<template>
+		<random>
+			<li>Large Sized drink?</li> 
+		</random>
+	</template>
+</category>
+<category>
+	<pattern>LARGE</pattern>
+	<that>* WHAT SIZE OF FRIES WILL IT BE</that>
+	<template>
+		<random>
+			<li>Large Sized fries?</li> 
+		</random>
+	</template>
+</category>
+<category>
+	<pattern>YES</pattern>
+	<that>* SIZED DRINK</that>
+	<template>
+		<random>
+			<li>Is that all?</li>
+			<li>Would you like some fries to that?</li>
+		</random>
+	</template>
+</category>
+<category>
+	<pattern>YES</pattern>
+	<that>* LIKE SOME FRIES TO THAT</that>
+	<template>
+		<random>
+			<li>What size of fries would you like?</li>
+		</random>
+	</template>
+</category>
+<category>
+	<pattern>*</pattern>
+	<that>* SIZED DRINK</that>
+	<template>
+		<random>
+			<li>?</li> 
+		</random>
+	</template>
+</category>
+<category>
+	<pattern>NO</pattern>
+	<that>* SIZED FRIES</that>
+	<template>
+		<random>
+			<li>My bad, so what size of fries will it be?</li> 
+		</random>
+	</template>
+</category>
+<category>
+	<pattern>YES</pattern>
+	<that>* SIZED FRIES</that>
+	<template>
+		<random>
+			<li>Is that all?</li> 
+		</random>
+	</template>
+</category>
+<category>
+	<pattern>NO</pattern>
+	<that>* SIZED DRINK</that>
+	<template>
+		<random>
+			<li>My bad, so what size of drink will it be?</li> 
+		</random>
+	</template>
+</category>
+<category>
+	<pattern>LARGE</pattern>
+	<that>* SIZE DRINK WILL IT BE</that>
+	<template>
+		<random>
+			<li>Large Sized drink?</li> 
+		</random>
+	</template>
+</category>
+<category>
+	<pattern>SMALL</pattern>
+	<that>* SIZE DRINK WILL IT BE</that>
+	<template>
+		<random>
+			<li>Small Sized drink?</li> 
+		</random>
+	</template>
+</category>
+<category>
+	<pattern>COKE</pattern>
+	<that>WHAT ELSE WOULD YOU LIKE</that>
+	<template>
+		<random>
+			<li>What size will it be?</li>
+		</random>
+	</template>
+</category>
+<category>
+	<pattern>SPRITE</pattern>
+	<that>WHAT ELSE WOULD YOU LIKE</that>
+	<template>
+		<random>
+			<li>What size will it be?</li> 
+		</random>
+	</template>
+</category>
+<category>
+	<pattern>YES</pattern>
+	<that>* THAT ALL</that>
+	<template>
+		<random>
+			<li>Here is your receipt and thank you for coming to Chick-fil-a. Next order, how can I help you?</li>
+		</random>
+	</template>
+</category>
+<category>
+	<pattern>*</pattern>
+	<that>* THAT ALL</that>
+	<template>
+		<random>
+			<li>Excuse me? Is that all?</li>
+		</random>
+	</template>
+</category>
+<category>
+	<pattern>NO</pattern>
+	<that>* THAT ALL</that>
+	<template>
+		<random>
+			<li>My bad, so what else would you like?</li>
+		</random>
+	</template>
+</category>
+<category>
+	<pattern>_ NUMBER ONE _</pattern>
+	<template><srai>ONE</srai></template>
+</category>
+<category>
+	<pattern>NUMBER ONE _</pattern>
+	<template><srai>ONE</srai></template>
+</category>
+<category>
+	<pattern>NUMBER ONE</pattern>
+	<template><srai>ONE</srai></template>
+</category>
+<category>
+	<pattern>_ NUMBER ONE</pattern>
+	<template><srai>ONE</srai></template>
+</category>
+<category>
+	<pattern>_ CHICKEN SANDWICH _</pattern>
+	<template><srai>ONE</srai></template>
+</category>
+<category>
+	<pattern>CHICKEN SANDWICH</pattern>
+	<template><srai>ONE</srai></template>
+</category>
+<category>
+	<pattern>CHICKEN SANDWICH _</pattern>
+	<template><srai>ONE</srai></template>
+</category>
+<category>
+	<pattern>_ CHICKEN SANDWICH</pattern>
+	<template><srai>ONE</srai></template>
+</category>
+<category>
+	<pattern>_ FRIES _</pattern>
+	<template><srai>FRIES</srai></template>
+</category>
+<category>
+	<pattern>FRENCH FRY</pattern>
+	<template><srai>FRIES</srai></template>
+</category>
+<category>
+	<pattern>FRIES _</pattern>
+	<template><srai>FRIES</srai></template>
+</category>
+<category>
+	<pattern>_ FRIES</pattern>
+	<template><srai>FRIES</srai></template>
+</category>
+<category>
+	<pattern>8</pattern>
+	<template><srai>EIGHT</srai></template>
+</category>
+<category>
+	<pattern>_ 8 PIECE _</pattern>
+	<template><srai>EIGHT</srai></template>
+</category>
+<category>
+	<pattern>8 PIECE</pattern>
+	<template><srai>EIGHT</srai></template>
+</category>
+<category>
+	<pattern>8 PIECE _</pattern>
+	<template><srai>EIGHT</srai></template>
+</category>
+<category>
+	<pattern>_ 8 PIECE</pattern>
+	<template><srai>EIGHT</srai></template>
+</category>
+<category>
+	<pattern>_ EIGHT PIECE _</pattern>
+	<template><srai>EIGHT</srai></template>
+</category>
+<category>
+	<pattern>EIGHT PIECE _</pattern>
+	<template><srai>EIGHT</srai></template>
+t</category>
+<category>
+	<pattern>EIGHT PIECE</pattern>
+	<template><srai>EIGHT</srai></template>
+</category>
+<category>
+	<pattern>_ EIGHT PIECE</pattern>
+	<template><srai>EIGHT</srai></template>
+</category>
+<category>
+	<pattern>_ 8 PIECES_</pattern>
+	<template><srai>EIGHT</srai></template>
+</category>
+<category>
+	<pattern>8 PIECES _</pattern>
+	<template><srai>EIGHT</srai></template>
+</category>
+<category>
+	<pattern>8 PIECES</pattern>
+	<template><srai>EIGHT</srai></template>
+</category>
+<category>
+	<pattern>_ 8 PIECES</pattern>
+	<template><srai>EIGHT</srai></template>
+</category>
+<category>
+	<pattern>_ EIGHT PIECES _</pattern>
+	<template><srai>EIGHT</srai></template>
+</category>
+<category>
+	<pattern>EIGHT PIECES</pattern>
+	<template><srai>EIGHT</srai></template>
+</category>
+<category>
+	<pattern> EIGHT PIECES_</pattern>
+	<template><srai>EIGHT</srai></template>
+</category>
+<category>
+	<pattern>_ EIGHT PIECES</pattern>
+	<template><srai>EIGHT</srai></template>
+</category>
+<category>
+	<pattern>_ YES _</pattern>
+	<template><srai>YES</srai></template>
+</category>
+<category>
+	<pattern>YES _</pattern>
+	<template><srai>YES</srai></template>
+</category>
+<category>
+	<pattern>_ YES</pattern>
+	<template><srai>YES</srai></template>
+</category>
+<category>
+	<pattern>_ SURE _</pattern>
+	<template><srai>YES</srai></template>
+</category>
+<category>
+	<pattern>SURE _</pattern>
+	<template><srai>YES</srai></template>
+</category>
+<category>
+	<pattern>_ SURE </pattern>
+	<template><srai>YES</srai></template>
+</category>
+<category>
+	<pattern>SURE</pattern>
+	<template><srai>YES</srai></template>
+</category>
+<category>
+	<pattern>_ NO _</pattern>
+	<template><srai>NO</srai></template>
+</category>
+<category>
+	<pattern>NO _</pattern>
+	<template><srai>NO</srai></template>
+</category>
+<category>
+	<pattern>_ NO</pattern>
+	<template><srai>NO</srai></template>
+</category>
+<category>
+	<pattern>_ NOTHING</pattern>
+	<template><srai>NO</srai></template>
+</category>
+<category>
+	<pattern>NOTHING _</pattern>
+	<template><srai>NO</srai></template>
+</category>
+<category>
+	<pattern>_ NOTHING _</pattern>
+	<template><srai>NO</srai></template>
+</category>
+<category>
+	<pattern>NOTHING</pattern>
+	<template><srai>NO</srai></template>
+</category>
+<category>
+	<pattern>EIGHT</pattern>
+	<template><srai>EIGHT</srai></template>
+</category>
+<category>
+	<pattern>12</pattern>
+	<template><srai>TWL</srai></template>
+</category>
+<category>
+	<pattern>_ 12 PIECE _</pattern>
+	<template><srai>TWL</srai></template>
+</category>
+<category>
+	<pattern>12 PIECE</pattern>
+	<template><srai>TWL</srai></template>
+</category>
+<category>
+	<pattern>12 PIECE _</pattern>
+	<template><srai>TWL</srai></template>
+</category>
+<category>
+	<pattern>_ 12 PIECE</pattern>
+	<template><srai>TWL</srai></template>
+</category>
+<category>
+	<pattern>_ TWELVE PIECE _</pattern>
+	<template><srai>TWL</srai></template>
+</category>
+<category>
+	<pattern>TWELVE PIECE _</pattern>
+	<template><srai>TWL</srai></template>
+</category>
+<category>
+	<pattern>TWELVE PIECE</pattern>
+	<template><srai>TWL</srai></template>
+</category>
+<category>
+	<pattern>_ TWELVE PIECE</pattern>
+	<template><srai>TWL</srai></template>
+</category>
+<category>
+	<pattern>_ 12 PIECES_</pattern>
+	<template><srai>TWL</srai></template>
+</category>
+<category>
+	<pattern>12 PIECES _</pattern>
+	<template><srai>TWL</srai></template>
+</category>
+<category>
+	<pattern>12 PIECES</pattern>
+	<template><srai>TWL</srai></template>
+</category>
+<category>
+	<pattern>_ 12 PIECES</pattern>
+	<template><srai>TWL</srai></template>
+</category>
+<category>
+	<pattern>_ TWELVE PIECES _</pattern>
+	<template><srai>TWL</srai></template>
+</category>
+<category>
+	<pattern>TWELVE PIECES</pattern>
+	<template><srai>TWL</srai></template>
+</category>
+<category>
+	<pattern> TWELVE PIECES_</pattern>
+	<template><srai>TWL</srai></template>
+</category>
+<category>
+	<pattern>_ TWELVE PIECES</pattern>
+	<template><srai>TWL</srai></template>
+</category>
+<category>
+	<pattern>_ TWELVE PIECES _</pattern>
+	<template><srai>TWL</srai></template>
+</category>
+<category>
+	<pattern>TWELVE</pattern>
+	<template><srai>TWL</srai></template>
+</category>
+<category>
+	<pattern> TWELVE _</pattern>
+	<template><srai>TWL</srai></template>
+</category>
+<category>
+	<pattern>_ TWELVE </pattern>
+	<template><srai>TWL</srai></template>
+</category>
+<category>
+	<pattern>_ TWELVE _</pattern>
+	<template><srai>TWL</srai></template>
+</category>
+<category>
+   	<pattern>HELLO</pattern>
+   	<template>Hello? How can I help you?</template>
+</category>
+<category>
+	<pattern>THANKS</pattern> 
+	<template><srai>THANK</srai></template>
+</category>
+<category>
+	<pattern>DRINK _</pattern> 
+	<template><srai>DRINK</srai></template>
+</category>
+<category>
+	<pattern>_ DRINK _</pattern> 
+	<template><srai>DRINK</srai></template>
+</category>
+<category>
+	<pattern>_ DRINK</pattern> 
+	<template><srai>DRINK</srai></template>
+</category>
+<category>
+	<pattern>THANK YOU</pattern> 
+	<template><srai>THANK</srai></template>
+</category>
+<category>
+	<pattern>HEY</pattern> 
+	<template><srai>HELLO</srai></template>
+</category>
+<category>
+	<pattern>_ GRILLED _</pattern>
+	<template><srai>GRILL</srai></template>
+</category>
+<category> 
+	<pattern>_ GRILLED </pattern>
+	<template><srai>GRILL</srai></template>
+</category>
+<category>
+	<pattern> GRILLED _</pattern>
+	<template><srai>GRILL</srai></template>
+</category>
+<category>
+	<pattern>GRILLED</pattern>
+	<template><srai>GRILL</srai></template>
+</category>
+<category>
+	<pattern>_ SMALL _</pattern>
+	<template><srai>SMALL</srai></template>
+</category>
+<category>
+	<pattern>_ SMALL</pattern>
+	<template><srai>SMALL</srai></template>
+</category>
+<category>
+	<pattern> SMALL _</pattern>
+	<template><srai>SMALL</srai></template>
+</category>
+<category>
+	<pattern>_ MEDIUM _</pattern>
+	<template><srai>MEDIU</srai></template>
+</category>
+<category>
+	<pattern>MEDIUM</pattern>
+	<template><srai>MEDIU</srai></template>
+</category>
+<category>
+	<pattern>_ MEDIUM </pattern>
+	<template><srai>MEDIU</srai></template>
+</category>
+<category>
+	<pattern> MEDIUM _</pattern>
+	<template><srai>MEDIU</srai></template>
+</category>
+<category>
+	<pattern>_ REGULAR _</pattern>
+	<template><srai>MEDIU</srai></template>
+</category>
+<category>
+	<pattern>_ REGULAR </pattern>
+	<template><srai>MEDIU</srai></template>
+</category>
+<category>
+	<pattern>REGULAR</pattern>
+	<template><srai>MEDIU</srai></template>
+</category>
+<category>
+	<pattern>REGULAR _</pattern>
+	<template><srai>MEDIU</srai></template>
+</category>
+<category>
+	<pattern>_ LARGE _</pattern>
+	<template><srai>LARGE</srai></template>
+</category>
+<category>
+	<pattern>_ LARGE </pattern>
+	<template><srai>LARGE</srai></template>
+</category>
+<category>
+	<pattern>LARGE</pattern>
+	<template><srai>LARGE</srai></template>
+</category>
+<category>
+	<pattern>LARGE _</pattern>
+	<template><srai>LARGE</srai></template>
+</category>
+<category>
+	<pattern>_ COKE _</pattern>
+	<template><srai>COKE</srai></template>
+</category>
+<category>
+	<pattern>COKE _</pattern>
+	<template><srai>COKE</srai></template>
+</category>
+<category>
+	<pattern>_ COKE</pattern>
+	<template><srai>COKE</srai></template>
+</category>
+<category>
+	<pattern>_ SPRITE _</pattern>
+	<template><srai>SPRITE</srai></template>
+</category>
+<category>
+	<pattern>SPRITE _</pattern>
+	<template><srai>SPRITE</srai></template>
+</category>
+<category>
+	<pattern>_ SPRITE</pattern>
+	<template><srai>SPRITE</srai></template>
+</category>
+<category>
+	<pattern>*</pattern>
+	<template>Pardon Me? How can I help you?</template>
+</category>
+<category>
+	<pattern>_ NUMBER TWO _</pattern>
+	<template><srai>TWO</srai></template>
+</category>
+<category>
+	<pattern>NUMBER TWO </pattern>
+	<template><srai>TWO</srai></template>
+</category>
+<category>
+	<pattern>_ NUMBER TWO </pattern>
+	<template><srai>TWO</srai></template>
+</category>
+<category>
+	<pattern>NUMBER TWO _</pattern>
+	<template><srai>TWO</srai></template>
+</category>
+<category>
+	<pattern>_ NUGGETS _</pattern>
+	<template><srai>TWO</srai></template>
+</category>
+<category>
+	<pattern>_ NUGGETS </pattern>
+	<template><srai>TWO</srai></template>
+</category>
+<category>
+	<pattern>NUGGETS</pattern>
+	<template><srai>TWO</srai></template>
+</category>
+<category>
+	<pattern>NUGGETS _</pattern>
+	<template><srai>TWO</srai></template>
+</category>
+
+<bot_name/> CHICKFILACLERK
+<bot_location/> GTSC 
+<bot_gender/> FEMALE
+<bot_favoritefood/> CHICKENS
+<for_fun/> SLEEP AT WORK
+
+</aiml>

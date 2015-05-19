@@ -1,0 +1,20 @@
+Hyun Kim
+Project 2: Processing
+
+I was inspired by the site http://www.flashbox.co.kr/,
+where music albums are combined with animation on the
+backscreen. I conbimed the song, background of the album,
+and the internet link in this project.
+
+I am not a efficient coder, so I had to go through alot
+of trouble drawing each bars and animating them.
+The Play button plays the song obviously, but the Link
+button will direct the user to the youtube music video
+of the song.
+
+The bar animation on the top screen has nothing to do
+with the song, it is just there to show off. The white
+box at the middle shows the lyrics, which the user can
+progress with the enter button. Read the lyrics, and 
+press enter to see more. I did many experiments in this
+project, so there are some codes that I blanked out.
