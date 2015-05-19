@@ -1,0 +1,1091 @@
+(dp0
+S'buildDestination'
+p1
+VC:\u005cUsers\u005cHyun J Kim\u005cDesktop\u005clifeeraser.html
+p2
+sS'saveDestination'
+p3
+S'C:\\Users\\Hyun J Kim\\Desktop\\lifeeraser.tws'
+p4
+sS'metadata'
+p5
+(dp6
+sS'target'
+p7
+S'sugarcane'
+p8
+sS'storyPanel'
+p9
+(dp10
+S'widgets'
+p11
+(lp12
+(dp13
+S'selected'
+p14
+I01
+sS'pos'
+p15
+(lp16
+I10
+aI10
+asS'passage'
+p17
+(itiddlywiki
+Tiddler
+p18
+(dp20
+S'text'
+p21
+V<<set $florence="no">>\u000a<<set $julia="no">> \u000a<<set $lifeeraser="no">>\u000a<<set $florenceerased = "no">>\u000a<<set $juliaerased = "no">>\u000a<<set $florencevisited = "no">>\u000a<<set $juliavisited= "no">>\u000a\u000aYou are invited to a blind date at a restaurant from your friend James. You are feeling anticipated about who you might meet.\u000a\u000a[[Next|Restaurant]]
+p22
+sS'title'
+p23
+VStart
+p24
+sS'modified'
+p25
+ctime
+struct_time
+p26
+((I2015
+I2
+I24
+I17
+I21
+I0
+I1
+I55
+I0
+tp27
+(dp28
+tp29
+Rp30
+sS'tags'
+p31
+(lp32
+sS'created'
+p33
+g26
+((I2015
+I2
+I17
+I3
+I12
+I32
+I1
+I48
+I0
+tp34
+(dp35
+tp36
+Rp37
+sbsa(dp38
+g14
+I00
+sg15
+(lp39
+I10
+aI150
+asg17
+(itiddlywiki
+Tiddler
+p40
+(dp41
+g21
+VLife Eraser
+p42
+sg23
+VStoryTitle
+p43
+sg25
+g26
+((I2015
+I2
+I17
+I3
+I24
+I20
+I1
+I48
+I0
+tp44
+(dp45
+tp46
+Rp47
+sg31
+(lp48
+sg33
+g26
+((I2015
+I2
+I17
+I3
+I12
+I32
+I1
+I48
+I0
+tp49
+(dp50
+tp51
+Rp52
+sbsa(dp53
+g14
+I00
+sg15
+(lp54
+I10
+aI290
+asg17
+(itiddlywiki
+Tiddler
+p55
+(dp56
+g21
+VHyun Kim
+p57
+sg23
+VStoryAuthor
+p58
+sg25
+g26
+((I2015
+I2
+I17
+I3
+I12
+I44
+I1
+I48
+I0
+tp59
+(dp60
+tp61
+Rp62
+sg31
+(lp63
+sg33
+g26
+((I2015
+I2
+I17
+I3
+I12
+I32
+I1
+I48
+I0
+tp64
+(dp65
+tp66
+Rp67
+sbsa(dp68
+g14
+I00
+sg15
+(lp69
+F188.0
+aF10.0
+asg17
+(itiddlywiki
+Tiddler
+p70
+(dp71
+g21
+V<<if $lifeeraser eq "no">>\u000a\u000aAt the restaurant, your friend James is waiting for you with two women at a table. He mentions "You are lucky to have a friend like me who can introduce these women to you." After taking your seat, you find out the names of the two women are Florence, a daughter of a major company CEO, and Julia, a famous beauty. You feel very satisfied with the candidates and your friend whispers "Give the menu booklet to the woman whom you would choose to date."\u000a\u000a[[Give the menu to Florence|Adjust1]]\u000a[[Give the menu to Julia|Adjust2]]\u000a\u000a<<endif>>\u000a\u000a<<if $florenceerased eq "yes" and $juliavisited eq "no">>\u000aYou are back to the restaurant where you first met Florence. You are shocked at the turn of the event and the capability of the Life Eraser.\u000a\u000aWhile you are trying to make a decision, a waitress comes in and spills water on Florence.\u000a\u000a"What have you done!" Florence shouts. "Don't you know how expensive my outfits are!" Florence slaps the waitress and leaves the table.\u000a\u000a"Just look at her, I am going to be bullied if I marry an arrogant woman like her" You say to yourself.\u000a\u000aWell, looks like there's only one choice now.\u000a\u000a[[Give the menu to Julia|Adjust2]]\u000a<<endif>>\u000a\u000a<<if $juliaerased eq "yes" and $florencevisited eq "no">>\u000aYou are back to the restaurant where you first met Julia. You are shocked at the turn of the event and the capability of the Life Eraser.\u000a\u000aWhile you are trying to make a decision, a group of men come in.\u000a\u000a"Julia, I love you. Please accept my proposal" one of the men say to Julia. "What are you doing to my girl? I am the only person worthy to date her" another man shouts and shoves the first man.\u000a\u000a"Do you want to find out who is indeed 'worthy' by fighting?" The first man answers back. "Okay, you called it" the second man answers and goes outside with him. Looking at this, Julia cries "Hey guys, stop this. Stop fighting" and follows the two men. And while she runs out, she hits a waitress and spills water over her clothes. But she follows the men nevertheless.\u000a\u000a"Just look at her and her complicated love relationships, I am going to be destroyed by other men if I marry a women like her" You say to yourself.'\u000a\u000aWell, looks like there's only one choice now.\u000a\u000a[[Give the menu to Florence|Adjust1]]\u000a<<endif>>\u000a\u000a<<if visited("Conflict1", "Conflict2")>>\u000aYou are back again at the restaurant for the 3rd time. You are disappointed about the turnouts of both events and stand in worries.\u000a\u000aThen, the waitress who spilled water comes near your table again.\u000a\u000a"I deeply apologize for my mistakes" she begins. "I would gladly pay for her suits I messed up. Can you give me her phone number so I can reach her about paying back? My name is Jane by the way" she tells you.\u000a\u000a[[Next|Adjust3]]  \u000a<<endif>>
+p72
+sg23
+VRestaurant
+p73
+sg25
+g26
+((I2015
+I2
+I24
+I17
+I19
+I19
+I1
+I55
+I0
+tp74
+(dp75
+tp76
+Rp77
+sg31
+(lp78
+sg33
+g26
+((I2015
+I2
+I17
+I3
+I31
+I17
+I1
+I48
+I0
+tp79
+(dp80
+tp81
+Rp82
+sbsa(dp83
+g14
+I00
+sg15
+(lp84
+F371.0
+aF11.0
+asg17
+(itiddlywiki
+Tiddler
+p85
+(dp86
+g21
+V<<set $florence = "yes">>\u000a\u000aYou say to yourself "Of course, money is everything that matters at this world" and hand the menu booklet to Florence. After the blind date, you begin to go out with Florence. However, your main interest is money you can inherit by marrying her, and you don't know about what her [[real personality|Discovery1]] yet.
+p87
+sg23
+VAdjust1
+p88
+sg25
+g26
+((I2015
+I2
+I17
+I12
+I39
+I21
+I1
+I48
+I0
+tp89
+(dp90
+tp91
+Rp92
+sg31
+(lp93
+sg33
+g26
+((I2015
+I2
+I17
+I3
+I35
+I53
+I1
+I48
+I0
+tp94
+(dp95
+tp96
+Rp97
+sbsa(dp98
+g14
+I00
+sg15
+(lp99
+F371.0
+aF303.0
+asg17
+(itiddlywiki
+Tiddler
+p100
+(dp101
+g21
+V<<set $julia = "yes">>\u000a\u000aYou say to yourself "Of course, you expect beauty from women the most" and hand the menu booklet to Julia. After the blind date, you begin to go out with Julia. However, your main interest is her beauty you admire and look at, and you don't know what her [[love relationships|Discovery2]] are like.
+p102
+sg23
+VAdjust2
+p103
+sg25
+g26
+((I2015
+I2
+I17
+I12
+I39
+I29
+I1
+I48
+I0
+tp104
+(dp105
+tp106
+Rp107
+sg31
+(lp108
+sg33
+g26
+((I2015
+I2
+I17
+I3
+I35
+I53
+I1
+I48
+I0
+tp109
+(dp110
+tp111
+Rp112
+sbsa(dp113
+g14
+I00
+sg15
+(lp114
+F370.0
+aF498.0
+asg17
+(itiddlywiki
+Tiddler
+p115
+(dp116
+g21
+VYou say to yourself "Of course, you should place your priority at hearts and kindness from women the most." You reply "Sorry, but I don't know her number." "But if you are interested, I have mine to share" you respond. And soon after you and Jane begin to date each other and eventually marry. However, your main interest is her kindness and respect, and you don't know what her [[real financial situation|Discovery3]] is like.
+p117
+sg23
+VAdjust3
+p118
+sg25
+g26
+((I2015
+I2
+I17
+I12
+I39
+I39
+I1
+I48
+I0
+tp119
+(dp120
+tp121
+Rp122
+sg31
+(lp123
+sg33
+g26
+((I2015
+I2
+I17
+I3
+I35
+I53
+I1
+I48
+I0
+tp124
+(dp125
+tp126
+Rp127
+sbsa(dp128
+g14
+I00
+sg15
+(lp129
+F508.0
+aF11.0
+asg17
+(itiddlywiki
+Tiddler
+p130
+(dp131
+g21
+V10 years have passed after your first meeting with Florence at the restaurant. You are talking to James who called "Hey, don't you think you should buy me some dinner after your ascension as the company CEO? After all, it's me who introduced you to your wife."\u000a\u000aYou reply "Hey, of course. I will do that at the college reunion at 7pm today. I plan to meet all of my old friends while having a fun time with you."\u000a\u000aBut all this jolly conversation is cut off when you hear a footstep coming in. "Wait a minute, my wife is coming in" you reply and hang up the phone.\u000a\u000aFlorence comes in and tells you. "I am bored, do you want to drive me to mall tonight?" You say "But I am planning to meet my friends at 7pm." With this answer, Florence blows up "Hey, who do you think is the reason why you are the CEO?" "You are surely acting out of control, are you feeling confident from the 'power' you borrowed from me?" She adds.\u000a\u000aUnable to answer, you submit to your wife's wishes and cancel the meeting with your friends. And after she finishes shopping, you are forced to carry all her bags too.\u000a\u000a[[Next|Conflict1]]
+p132
+sg23
+VDiscovery1
+p133
+sg25
+g26
+((I2015
+I2
+I17
+I11
+I46
+I49
+I1
+I48
+I0
+tp134
+(dp135
+tp136
+Rp137
+sg31
+(lp138
+sg33
+g26
+((I2015
+I2
+I17
+I3
+I41
+I12
+I1
+I48
+I0
+tp139
+(dp140
+tp141
+Rp142
+sbsa(dp143
+g14
+I00
+sg15
+(lp144
+F642.0
+aF11.0
+asg17
+(itiddlywiki
+Tiddler
+p145
+(dp146
+g21
+VYou meet with James few days later. You bring out all your frustration "Don't you think she's doing too much? Just because I inherited the company with the marriage, she thinks as she owns me and I am nothing but her servant"\u000a\u000aJames gives you an advise "Women who are commanding are actually weak against commanding and charismatic men. Why don't you try that on her?"\u000a\u000aYou follow the advise and go back to the house to find Florence sleeping. You shout "Hey, don't you think it's the manners to greet your husband who came back from hard works at least?" She ignores. "We need to deal with this, I am going to get your respect back on me now" you say in anger while running into her.\u000a\u000aShe easily stops you right in the track and kicks you out of the house. You beg asking her to let you come in, which she ignores for hours.\u000a\u000a<<set $florencevisited = "yes">>\u000a\u000a<<if $lifeeraser eq "no">>\u000aMeanwhile, [[someone|lifeeraser]] stares you with sympathy at the dark.\u000a<<endif>>\u000a\u000a<<if $lifeeraser eq "yes">>\u000aYou wonder whether you made the right decision again.\u000a[[Next|lifeeraser]]\u000a<<endif>>
+p147
+sg23
+VConflict1
+p148
+sg25
+g26
+((I2015
+I2
+I17
+I11
+I48
+I50
+I1
+I48
+I0
+tp149
+(dp150
+tp151
+Rp152
+sg31
+(lp153
+sg33
+g26
+((I2015
+I2
+I17
+I3
+I59
+I59
+I1
+I48
+I0
+tp154
+(dp155
+tp156
+Rp157
+sbsa(dp158
+g14
+I00
+sg15
+(lp159
+F750.0
+aF159.0
+asg17
+(itiddlywiki
+Tiddler
+p160
+(dp161
+g21
+V<<if $lifeeraser eq "no">>\u000a\u000a"Tsk tsk" an old man looks at you from behind. "If you made a careful decision, this wouldn't have happened" He remarks. "Do you think you can help me?" you ask desperately. "I do" the old man replies. \u000a\u000a"What I have with me is something called as the 'Life Eraser.' Erase a part of your diary when you made an important decision, and it will take you back to the time so you can change the decision you made at the past."\u000a\u000aYou are left with the decision whether keep your decision staying with your current wife or go back to the past when you were brought to the blind date at the restaurant.\u000a\u000a<<if $florence eq "yes">>\u000a[[Use the Life Eraser|Diary]]\u000a[[Don't use the the Life Eraser|Resolution1]]\u000a<<endif>>\u000a<<if $julia eq "yes">>\u000a[[Use the Life Eraser|Diary]]\u000a[[Don't use the the Life Eraser|Resolution2]]\u000a<<endif>>\u000a<<endif>>\u000a\u000a<<if $lifeeraser eq "yes">>\u000aYou erased your past with the life eraser earlier and made a different decision. However, you don't know whether you prefer your current decision more than the previous one. Would you keep your current decision or try another with what's remaining of the life eraser?\u000a\u000a<<if $juliaerased eq "yes">>\u000a[[Use the Life Eraser|Diary]]\u000a[[Don't use the the Life Eraser|Resolution1]]\u000a<<endif>>\u000a<<if $florenceerased eq "yes">>\u000a[[Use the Life Eraser|Diary]]\u000a[[Don't use the the Life Eraser|Resolution2]]\u000a<<endif>>\u000a<<endif>>
+p162
+sg23
+Vlifeeraser
+p163
+sg25
+g26
+((I2015
+I2
+I17
+I11
+I50
+I58
+I1
+I48
+I0
+tp164
+(dp165
+tp166
+Rp167
+sg31
+(lp168
+sg33
+g26
+((I2015
+I2
+I17
+I4
+I11
+I52
+I1
+I48
+I0
+tp169
+(dp170
+tp171
+Rp172
+sbsa(dp173
+g14
+I00
+sg15
+(lp174
+F856.0
+aF11.0
+asg17
+(itiddlywiki
+Tiddler
+p175
+(dp176
+g21
+V<<if $lifeeraser eq "no">>\u000aYou refuse the offer from the old man. \u000a<<endif>>\u000a\u000aEventually Florence let you come in and you had to beg on your knees for forgiveness. Florence keeps her lavish, high maintainance, and dictatorial ways, and you sacrifice your freedom and pride in return for wealth.\u000a\u000aThat's why people say "Money comes with heavy sacrifices"
+p177
+sg23
+VResolution1
+p178
+sg25
+g26
+((I2015
+I2
+I17
+I11
+I51
+I33
+I1
+I48
+I0
+tp179
+(dp180
+tp181
+Rp182
+sg31
+(lp183
+sg33
+g26
+((I2015
+I2
+I17
+I4
+I19
+I11
+I1
+I48
+I0
+tp184
+(dp185
+tp186
+Rp187
+sbsa(dp188
+g14
+I00
+sg15
+(lp189
+F850.0
+aF305.0
+asg17
+(itiddlywiki
+Tiddler
+p190
+(dp191
+g21
+V<<if $lifeeraser eq "no">>\u000aYou refuse the offer from the old man. \u000a<<endif>>\u000a\u000aEventually the police caught the stalker and you are back on your house again. But it didn't stop other men's attraction to your wife and you had to sacrifice your freedom trying to avoid the attention.\u000a\u000aThat's why people say "Beauty requires high maintainance."
+p192
+sg23
+VResolution2
+p193
+sg25
+g26
+((I2015
+I2
+I17
+I11
+I52
+I4
+I1
+I48
+I0
+tp194
+(dp195
+tp196
+Rp197
+sg31
+(lp198
+sg33
+g26
+((I2015
+I2
+I17
+I4
+I19
+I11
+I1
+I48
+I0
+tp199
+(dp200
+tp201
+Rp202
+sbsa(dp203
+g14
+I00
+sg15
+(lp204
+F507.0
+aF304.0
+asg17
+(itiddlywiki
+Tiddler
+p205
+(dp206
+g21
+V10 years have passed after your first meeting with Julia at the restaurant. You married Julia with the envy of so many men. \u000a\u000aYou go out to a restaurant for a dinner with your wife. Julia's beauty attracts the eyes of the men inside the building. You feel uncomfortable with their attention and try to leave quickly.\u000a\u000aHowever, you are chased by hundreds of suitors and reporters as you leave the building. You run with Julia to hurry back home. Both you and Julia barely manage to escape from the pursuit.\u000a\u000aYou account it was the 1000th time this happened since you dated Julia.\u000a\u000a[[Next|Conflict2]]
+p207
+sg23
+VDiscovery2
+p208
+sg25
+g26
+((I2015
+I2
+I17
+I11
+I54
+I35
+I1
+I48
+I0
+tp209
+(dp210
+tp211
+Rp212
+sg31
+(lp213
+sg33
+g26
+((I2015
+I2
+I17
+I4
+I22
+I16
+I1
+I48
+I0
+tp214
+(dp215
+tp216
+Rp217
+sbsa(dp218
+g14
+I00
+sg15
+(lp219
+F643.0
+aF304.0
+asg17
+(itiddlywiki
+Tiddler
+p220
+(dp221
+g21
+V"I am very sorry" Julia apologizes. "It's just I am so pretty and I can't help it" She remarks. "Yeah, I understand. But it's your beauty that makes you worthy to be my wife" you respond. You and Julia fall asleep.\u000a\u000a"Crack" You hear a window breaking open. A stalker comes in and exclaims. "If it wasn't for you, if you didn't exist, she would have been mine already!" He shouts. "Therefore if I get rid of you, she will finally belong to me!" He laughs as he swings his weapon at you.\u000a\u000aFortunately, both you and Julia escape from the house. Meanwhile Julia is away at the police station for protection, you sit down at a park bench about what to do.\u000a\u000a<<set $juliavisited = "yes">>\u000a\u000a<<if $lifeeraser eq "no">>\u000aMeanwhile, [[someone|lifeeraser]] stares you with sympathy from the dark.\u000a<<endif>>\u000a\u000a<<if $lifeeraser eq "yes">>\u000aYou wonder whether you made the right decision again.\u000a[[Next|lifeeraser]]\u000a<<endif>>
+p222
+sg23
+VConflict2
+p223
+sg25
+g26
+((I2015
+I2
+I17
+I11
+I53
+I37
+I1
+I48
+I0
+tp224
+(dp225
+tp226
+Rp227
+sg31
+(lp228
+sg33
+g26
+((I2015
+I2
+I17
+I4
+I41
+I15
+I1
+I48
+I0
+tp229
+(dp230
+tp231
+Rp232
+sbsa(dp233
+g14
+I00
+sg15
+(lp234
+F507.0
+aF498.0
+asg17
+(itiddlywiki
+Tiddler
+p235
+(dp236
+g21
+V10 years have passed after your first meeting with Jane. You married Jane who isn't pretty or rich. You also have one son and one daughter after the marriage, and work at a small company. \u000a\u000aYou find out it's your son's birthday tomorrow, but with many debts and lents, you can't afford a good party for your son.\u000a\u000a[[Next|Conflict3]]
+p237
+sg23
+VDiscovery3
+p238
+sg25
+g26
+((I2015
+I2
+I17
+I11
+I55
+I54
+I1
+I48
+I0
+tp239
+(dp240
+tp241
+Rp242
+sg31
+(lp243
+sg33
+g26
+((I2015
+I2
+I17
+I4
+I59
+I10
+I1
+I48
+I0
+tp244
+(dp245
+tp246
+Rp247
+sbsa(dp248
+g14
+I00
+sg15
+(lp249
+F644.0
+aF498.0
+asg17
+(itiddlywiki
+Tiddler
+p250
+(dp251
+g21
+VWhen you are working at your company, your boss approaches you from behind. "I am sorry, but you know the economy is bad and we have to save ourselves as we can" he calmly tells you. "Please find yourself other jobs, and clear your desk by today" and that was his final order to you.\u000a\u000aMeanwhile, Jane who is working for two jobs comes back tired. In addition to telling that you are out of your job, you have another bad news to mention. "Honey, you know I gave some amount of money to my friend Jimmy." "But Jimmy disappeared and he is longer contacted" You conclude with many worries with your face.\u000a\u000aJane keeps silent for a while. "It's okay, I can work another job to make up for those money and until you find yourself a new job" she replies.\u000a\u000aYou prepare a piece of small cake for your son's birthday. However, he cuts it into 4 more small pieces for each of the family members.\u000a\u000a[[Next|lifeeraser2]]
+p252
+sg23
+VConflict3
+p253
+sg25
+g26
+((I2015
+I2
+I24
+I16
+I59
+I56
+I1
+I55
+I0
+tp254
+(dp255
+tp256
+Rp257
+sg31
+(lp258
+sg33
+g26
+((I2015
+I2
+I17
+I5
+I8
+I37
+I1
+I48
+I0
+tp259
+(dp260
+tp261
+Rp262
+sbsa(dp263
+g14
+I00
+sg15
+(lp264
+F850.0
+aF497.0
+asg17
+(itiddlywiki
+Tiddler
+p265
+(dp266
+g21
+VAs you wake up at next morning, you find yourself stranded on the bench in a begger's outfit. And you find James and Jane riding on a fancy car nearby.\u000a\u000a"Hey, what are you doing to my wife?" you shout as you grab James' collar. "What are you talking about? Your wife? Have you gotten insane after you got bankrupt?" James responds as he drives his car away with Jane.\u000a\u000a"Tsk tsk" The old man whom you received the life eraser approaches you from the back. "With such power, you have to keep it under control. It's not something you can simply throw away carelessly." Lastly, he reminds you "Do you think you would be the only one who are unhappy with their marriages and situations?"\u000a\u000aNow you understand the situation. It looks like Jane managed to come across the life eraser you threw away and used it to erase her own past with you to marry James instead. You regret and shout "Noooooooo" as everything blacks out.\u000a\u000a-The End-
+p267
+sg23
+VResolution3
+p268
+sg25
+g26
+((I2015
+I2
+I24
+I17
+I12
+I36
+I1
+I55
+I0
+tp269
+(dp270
+tp271
+Rp272
+sg31
+(lp273
+sg33
+g26
+((I2015
+I2
+I17
+I5
+I18
+I39
+I1
+I48
+I0
+tp274
+(dp275
+tp276
+Rp277
+sbsa(dp278
+g14
+I00
+sg15
+(lp279
+F590.0
+aF160.0
+asg17
+(itiddlywiki
+Tiddler
+p280
+(dp281
+g21
+V<<set $lifeeraser = "yes">>\u000a\u000aYou find your diary and search for the passage which was written at the day when you made your decision. \u000a\u000aIt says.\u000a\u000aFebruary 17th, 2015.\u000a\u000aI met my wife at the restaurant with the recommendation of my best friend James.\u000a\u000aYou erase the entire page and you are blinded by light at sudden.\u000a\u000a[[Next|Restaurant]]\u000a\u000a<<if $florence eq "yes">>\u000a<<set $florenceerased = "yes">>\u000a<<endif>>\u000a<<if $julia eq "yes">>\u000a<<set $juliaerased = "yes">>\u000a<<endif>>
+p282
+sg23
+VDiary
+p283
+sg25
+g26
+((I2015
+I2
+I24
+I16
+I58
+I32
+I1
+I55
+I0
+tp284
+(dp285
+tp286
+Rp287
+sg31
+(lp288
+sg33
+g26
+((I2015
+I2
+I17
+I5
+I28
+I55
+I1
+I48
+I0
+tp289
+(dp290
+tp291
+Rp292
+sbsa(dp293
+g14
+I00
+sg15
+(lp294
+F184.0
+aF290.0
+asg17
+(itiddlywiki
+Tiddler
+p295
+(dp296
+g21
+V/* Your story will use the CSS in this passage to style the page.\u000aGive this passage more tags, and it will only affect passages with those tags.\u000aExample selectors: */\u000a\u000abody {\u000a	/* This affects the entire page */\u000a	background-color: white;\u000a	\u000a}\u000a.passage {\u000a	/* This only affects passages */\u000a	color: black;	  \u000a	border-style: solid;\u000a	border-width: 2px;\u000a	border-color: blue;\u000a\u000a}\u000a.passage a {\u000a	/* This affects passage links */\u000a	\u000a	\u000a}\u000a.passage a:hover {\u000a	/* This affects links while the cursor is over them */\u000a	\u000a	\u000a}
+p297
+sg23
+VUntitled Stylesheet 1
+p298
+sg25
+g26
+((I2015
+I2
+I17
+I12
+I0
+I36
+I1
+I48
+I0
+tp299
+(dp300
+tp301
+Rp302
+sg31
+(lp303
+Vstylesheet
+p304
+asg33
+g26
+((I2015
+I2
+I17
+I11
+I58
+I34
+I1
+I48
+I0
+tp305
+(dp306
+tp307
+Rp308
+sbsa(dp309
+g14
+I00
+sg15
+(lp310
+F749.0
+aF643.0
+asg17
+(itiddlywiki
+Tiddler
+p311
+(dp312
+g21
+V"Yes, this is the true happiness I saught and wanted. I am not rich nor have a beautiful wife, but I have won the heart" you say to yourself after the birthday party. And with that you stare what's left of the life eraser.\u000a\u000a[[Throw the life eraser away|Resolution3]]\u000a[[Keep it somewhere private|Resolution4]]
+p313
+sg23
+Vlifeeraser2
+p314
+sg25
+g26
+((I2015
+I2
+I24
+I17
+I8
+I51
+I1
+I55
+I0
+tp315
+(dp316
+tp317
+Rp318
+sg31
+(lp319
+sg33
+g26
+((I2015
+I2
+I24
+I16
+I59
+I59
+I1
+I55
+I0
+tp320
+(dp321
+tp322
+Rp323
+sbsa(dp324
+g14
+I00
+sg15
+(lp325
+F847.0
+aF787.0
+asg17
+(itiddlywiki
+Tiddler
+p326
+(dp327
+g21
+VYou wake up next morning refreshed from the bright energy at the birthday party. Surely, you have a lot of money due and heavy workloads wait for you. But with the support from your kind wife and caring kids, you know those are no troubles compared to other paths you have walked. You keep the life eraser somewhere deep inside your locker, never touched by you or any others ever again.\u000a\u000a-The End-
+p328
+sg23
+VResolution4
+p329
+sg25
+g26
+((I2015
+I2
+I24
+I17
+I16
+I54
+I1
+I55
+I0
+tp330
+(dp331
+tp332
+Rp333
+sg31
+(lp334
+sg33
+g26
+((I2015
+I2
+I24
+I17
+I0
+I29
+I1
+I55
+I0
+tp335
+(dp336
+tp337
+Rp338
+sbsasS'scale'
+p339
+F1.0
+sS'snapping'
+p340
+I00
+ss.

@@ -1,0 +1,1867 @@
+(dp0
+S'buildDestination'
+p1
+VC:\u005cUsers\u005cHyun J Kim\u005cDesktop\u005cUniversity-Dreamer.html
+p2
+sS'saveDestination'
+p3
+S'C:\\Users\\Hyun J Kim\\Desktop\\FinalProject.tws'
+p4
+sS'metadata'
+p5
+(dp6
+sS'target'
+p7
+S'sugarcane'
+p8
+sS'storyPanel'
+p9
+(dp10
+S'widgets'
+p11
+(lp12
+(dp13
+S'selected'
+p14
+I00
+sS'pos'
+p15
+(lp16
+I10
+aI10
+asS'passage'
+p17
+(itiddlywiki
+Tiddler
+p18
+(dp20
+S'text'
+p21
+V<<set $proof = 0>>\u000a<<set $dorothy = 0>>\u000a<<set $extra = 0>>\u000a<<set $sticker = 0>>\u000a<<set $saw = 0>>\u000a<<set $time = 7>>\u000a<<set $micheal = 0>>\u000a<<set $michealend = 0>>\u000a\u000aThe news is very hot at the campus lately. The launch of the new Blabbermouth site has been gathering interests of all the college students already. After the revelation of many secrets and rumors about students,  today's feed reads:\u000a\u000a"The D student Robert got a 100 the physics test a week ago. He is a student who got 50 or 60 on his tests before. At the same time, the physics professor notes one of his tests have gotten missing during the night before the exam. Does that ring a bell?"\u000a\u000a[["Roger that, Robert is a huge time thief and a cheater!"|R1]]
+p22
+sS'title'
+p23
+VStart
+p24
+sS'modified'
+p25
+ctime
+struct_time
+p26
+((I2015
+I4
+I27
+I0
+I20
+I25
+I0
+I117
+I1
+tp27
+(dp28
+tp29
+Rp30
+sS'tags'
+p31
+(lp32
+sS'created'
+p33
+g26
+((I2015
+I4
+I7
+I0
+I18
+I32
+I1
+I97
+I1
+tp34
+(dp35
+tp36
+Rp37
+sbsa(dp38
+g14
+I00
+sg15
+(lp39
+I10
+aI150
+asg17
+(itiddlywiki
+Tiddler
+p40
+(dp41
+g21
+VUniversity-Dreamer
+p42
+sg23
+VStoryTitle
+p43
+sg25
+g26
+((I2015
+I4
+I7
+I5
+I6
+I59
+I1
+I97
+I1
+tp44
+(dp45
+tp46
+Rp47
+sg31
+(lp48
+sg33
+g26
+((I2015
+I4
+I7
+I0
+I18
+I32
+I1
+I97
+I1
+tp49
+(dp50
+tp51
+Rp52
+sbsa(dp53
+g14
+I00
+sg15
+(lp54
+I10
+aI290
+asg17
+(itiddlywiki
+Tiddler
+p55
+(dp56
+g21
+VHyun Kim
+p57
+sg23
+VStoryAuthor
+p58
+sg25
+g26
+((I2015
+I4
+I7
+I5
+I6
+I47
+I1
+I97
+I1
+tp59
+(dp60
+tp61
+Rp62
+sg31
+(lp63
+sg33
+g26
+((I2015
+I4
+I7
+I0
+I18
+I32
+I1
+I97
+I1
+tp64
+(dp65
+tp66
+Rp67
+sbsa(dp68
+g14
+I00
+sg15
+(lp69
+F165.0
+aF10.0
+asg17
+(itiddlywiki
+Tiddler
+p70
+(dp71
+g21
+V<<print visited()>> Days have passed. You were given 8 days at the start.\u000a\u000a<<if visited("R1") is 1>>\u000aAfter the feed, you begin to realize that whenever people look at you, they hide their faces and start gossiping to one other.\u000a\u000aYou are called by the physics professor for a meeting with him. He mentions that he does feel suspicious about you, and will arrange a meeting with the Office of Integrity to handle this matter. He mentions this will happen in eight days, but you are welcome to proving yourself if you have the evidence.\u000a\u000a[[Wander around the campus|B1]]\u000a[[Leave the room and go to the fraternity house|D1]]\u000a[[Leave the room and go to the library|L1]]\u000a[[Argue to the professor that you are innocent|I1]]\u000a<<endif>>\u000a\u000a<<if visited("R1") > 1 && $time > 0>>\u000aYou wake up and realize that it was all a dream. You go to your classes and wonder about what to do after.\u000a\u000a[[Wander around the campus|B1]]\u000a[[Go to the fraternity house|D1]]\u000a[[Go to the library|L1]]\u000a[[Argue to the professor that you are innocent|P1]]\u000a<<if visited("V1")>>\u000a[[Go to Jittery Java Beans|SC1]]\u000a<<endif>>\u000a<<endif>>\u000a\u000a<<if $time is 0>>\u000aThe physics professor calls you to his office.\u000a\u000aProfessor: Well, Robert. I think it had been enough time for you to find yourself some evidences, but I don't think I can delay your meeting with the Office of Integrity now.\u000a\u000aProfessor: I am very sorry Robert, but I have to turn you in for cheating and breaking into my room without permission.\u000a\u000a-Bad Ending-\u000a\u000a[[Restart|Start][state.restart()]]\u000a<<endif>>
+p72
+sg23
+VR1
+p73
+sg25
+g26
+((I2015
+I4
+I26
+I23
+I50
+I23
+I6
+I116
+I1
+tp74
+(dp75
+tp76
+Rp77
+sg31
+(lp78
+sg33
+g26
+((I2015
+I4
+I7
+I0
+I24
+I35
+I1
+I97
+I1
+tp79
+(dp80
+tp81
+Rp82
+sbsa(dp83
+g14
+I00
+sg15
+(lp84
+F305.0
+aF149.0
+asg17
+(itiddlywiki
+Tiddler
+p85
+(dp86
+g21
+VAfter going through everything today, you can't help but feeling tired. You fall asleep for another busy day ahead.\u000a\u000a[[Next|DB1]]
+p87
+sg23
+VD1
+p88
+sg25
+g26
+((I2015
+I4
+I7
+I1
+I30
+I8
+I1
+I97
+I1
+tp89
+(dp90
+tp91
+Rp92
+sg31
+(lp93
+sg33
+g26
+((I2015
+I4
+I7
+I1
+I18
+I4
+I1
+I97
+I1
+tp94
+(dp95
+tp96
+Rp97
+sbsa(dp98
+g14
+I00
+sg15
+(lp99
+F447.0
+aF149.0
+asg17
+(itiddlywiki
+Tiddler
+p100
+(dp101
+g21
+VAfter going through a tough day, you arrive at the library where you can rest quietly. What are you going to do?\u000a\u000a<<if visited ("F1") && $sticker eq 0>>\u000a[[Search around the tables|T1]]\u000a<<endif>>\u000a<<else>>\u000a[[Go to sleep|DreamL1]]
+p102
+sg23
+VL1
+p103
+sg25
+g26
+((I2015
+I4
+I21
+I5
+I46
+I53
+I1
+I111
+I1
+tp104
+(dp105
+tp106
+Rp107
+sg31
+(lp108
+sg33
+g26
+((I2015
+I4
+I7
+I1
+I18
+I4
+I1
+I97
+I1
+tp109
+(dp110
+tp111
+Rp112
+sbsa(dp113
+g14
+I00
+sg15
+(lp114
+F305.0
+aF10.0
+asg17
+(itiddlywiki
+Tiddler
+p115
+(dp116
+g21
+VProfessor: I am very sorry Robert. But you are the prime suspect and there are so many who believe this is your doing. You must bring me proofs of your innocence or the real culprit.\u000a\u000a<<if visited ("I1") is 1>>\u000a"By the way. We found the CCTV and the culprit was wearing Spider Man outfit. I really wish that wasn't you." Professor remarks.\u000a<<endif>>\u000a\u000a[[Go to the library|L1]]\u000a[[Go to the fraternity house|D1]]\u000a[[Wander around the campus|B1]]\u000a<<if visited("V1")>>\u000a[[Go to Jittery Java Beans|SC1]]\u000a<<endif>>
+p117
+sg23
+VI1
+p118
+sg25
+g26
+((I2015
+I4
+I26
+I23
+I50
+I37
+I6
+I116
+I1
+tp119
+(dp120
+tp121
+Rp122
+sg31
+(lp123
+sg33
+g26
+((I2015
+I4
+I7
+I1
+I23
+I34
+I1
+I97
+I1
+tp124
+(dp125
+tp126
+Rp127
+sbsa(dp128
+g14
+I00
+sg15
+(lp129
+F305.0
+aF290.0
+asg17
+(itiddlywiki
+Tiddler
+p130
+(dp131
+g21
+VYou try to concentrate on your inner thoughts to think about what went wrong. \u000a\u000aWhile you are engaging on your thoughts, someone tabs you from behind.\u000a\u000a[[Hmm, I wonder who is it?|G1]]\u000a[[Please leave me alone!|S2]]
+p132
+sg23
+VS1
+p133
+sg25
+g26
+((I2015
+I4
+I21
+I12
+I44
+I28
+I1
+I111
+I1
+tp134
+(dp135
+tp136
+Rp137
+sg31
+(lp138
+sg33
+g26
+((I2015
+I4
+I7
+I1
+I28
+I17
+I1
+I97
+I1
+tp139
+(dp140
+tp141
+Rp142
+sbsa(dp143
+g14
+I00
+sg15
+(lp144
+F591.0
+aF149.0
+asg17
+(itiddlywiki
+Tiddler
+p145
+(dp146
+g21
+V<<set $talk=0>>\u000a\u000aYou find yourself at your dreams. You notice "Parrots are welcoming the Class of 2013" sign at the school banners and a crowd of people near your bench. Wow, this means you are reliving your past 2 years ago.\u000a\u000aYou are approached by a group of people who seems familiar. It's Hank, Dorothy, Mitch and many other fellow students. You remember this is the memory from your freshmen orientation.\u000a\u000a[[Greet Hank|F1][$talk=$talk+1]]\u000a[[Greet Dorothy|DT1][$talk=$talk+1]]\u000a[[Greet Mitch|V1][$talk=$talk+1]]
+p147
+sg23
+VDA1
+p148
+sg25
+g26
+((I2015
+I4
+I21
+I4
+I8
+I35
+I1
+I111
+I1
+tp149
+(dp150
+tp151
+Rp152
+sg31
+(lp153
+VDream
+p154
+asg33
+g26
+((I2015
+I4
+I7
+I1
+I28
+I17
+I1
+I97
+I1
+tp155
+(dp156
+tp157
+Rp158
+sbsa(dp159
+g14
+I00
+sg15
+(lp160
+F591.0
+aF289.0
+asg17
+(itiddlywiki
+Tiddler
+p161
+(dp162
+g21
+V<<set $talk=0>>\u000a\u000aYou find yourself at your dreams. You are back at a fraternity party which happened a week ago, and everyone is having a nice time.\u000a\u000a[[Greet Jimmy|J1][$talk=$talk+1]]\u000a[[Greet Michael|F2][$talk=$talk+1]]\u000a<<if visited ("DT1")>>\u000a[[Greet Dorothy|DT2][$talk=$talk+1]]\u000a<<endif>>
+p163
+sg23
+VDB1
+p164
+sg25
+g26
+((I2015
+I4
+I27
+I0
+I40
+I42
+I0
+I117
+I1
+tp165
+(dp166
+tp167
+Rp168
+sg31
+(lp169
+VDream
+p170
+asg33
+g26
+((I2015
+I4
+I7
+I1
+I29
+I39
+I1
+I97
+I1
+tp171
+(dp172
+tp173
+Rp174
+sbsa(dp175
+g14
+I00
+sg15
+(lp176
+F447.0
+aF430.0
+asg17
+(itiddlywiki
+Tiddler
+p177
+(dp178
+g21
+V"Oh.. Okay" She goes on her way as you keep on thinking. Meanwhile, you get bored and [[turn on the phone|BF1]]
+p179
+sg23
+VS2
+p180
+sg25
+g26
+((I2015
+I4
+I21
+I12
+I47
+I27
+I1
+I111
+I1
+tp181
+(dp182
+tp183
+Rp184
+sg31
+(lp185
+sg33
+g26
+((I2015
+I4
+I7
+I1
+I40
+I20
+I1
+I97
+I1
+tp186
+(dp187
+tp188
+Rp189
+sbsa(dp190
+g14
+I00
+sg15
+(lp191
+F305.0
+aF430.0
+asg17
+(itiddlywiki
+Tiddler
+p192
+(dp193
+g21
+V<<set $dorothy = 1>>\u000a\u000aDorothy: You are not feeling well again, don't you?"\u000a\u000aYou: Do you trust me?\u000a\u000aDorothy: Of course, I do. Although many people find you suspicious, I really know that you are a honest and righteous person.\u000a\u000aDorothy: I will go with you if they question you. As your friend, I will defend you as the best as I can.\u000a\u000aYou: Thanks, Dorothy. You are really a good friend to trust me like that.\u000a\u000aAfter Dorothy takes her leave, you wonder about what to do.\u000a\u000a[[Go to the fraternity house|D1]]\u000a[[Wander around the campus|B1]]\u000a[[Go to the library|L1]]\u000a[[Argue to the professor that you are innocent|P1]]
+p194
+sg23
+VG1
+p195
+sg25
+g26
+((I2015
+I4
+I27
+I1
+I0
+I55
+I0
+I117
+I1
+tp196
+(dp197
+tp198
+Rp199
+sg31
+(lp200
+sg33
+g26
+((I2015
+I4
+I7
+I1
+I40
+I20
+I1
+I97
+I1
+tp201
+(dp202
+tp203
+Rp204
+sbsa(dp205
+g14
+I00
+sg15
+(lp206
+F591.0
+aF9.0
+asg17
+(itiddlywiki
+Tiddler
+p207
+(dp208
+g21
+VHank: Hi, nice to meet you.\u000a\u000aYou: How are you?\u000a\u000aHank: Well, at the top of my condition as usual. Who else looks better or leads better than I do?\u000a\u000aYou: (He's surely full of himself...)\u000a\u000aHank: I knew that Jimmy kid from my high school. An opportunistic Spider Man mania who can't stick to one side. \u000a\u000a<<if $talk eq 1>>\u000aYou look into other people to talk with.\u000a\u000a[[Greet Dorothy|DT1][$talk=$talk+1]]\u000a[[Greet Mitch|V1][$talk=$talk+1]]\u000a<<endif>>\u000a<<if $talk eq 2>>\u000a[[You wake up and realize it was all a dream|R1][$time=$time-1]]\u000a<<endif>>
+p209
+sg23
+VF1
+p210
+sg25
+g26
+((I2015
+I4
+I21
+I12
+I48
+I25
+I1
+I111
+I1
+tp211
+(dp212
+tp213
+Rp214
+sg31
+(lp215
+VDream
+p216
+asg33
+g26
+((I2015
+I4
+I7
+I1
+I48
+I35
+I1
+I97
+I1
+tp217
+(dp218
+tp219
+Rp220
+sbsa(dp221
+g14
+I00
+sg15
+(lp222
+F738.0
+aF149.0
+asg17
+(itiddlywiki
+Tiddler
+p223
+(dp224
+g21
+VDorothy: Hi, my name is Dorothy. Nice to meet you. I used to play soccer at my high school and will be majoring at engineering here. What about you?\u000a\u000aYou: That's great to hear! I am a real soccer fan and will be majoring at engineering too. Guess that will make us a close friends.\u000a\u000aDorothy: Haha, I look forward to it.\u000a\u000a<<if $talk is 1>>\u000aYou look into other people to talk with.\u000a\u000a[[Greet Hank|F1][$talk=$talk+1]]\u000a[[Greet Mitch|V1][$talk=$talk+1]]\u000a<<endif>>\u000a<<if $talk is 2>>\u000a[[You wake up and realize it was all a dream|R1][$time=$time-1]]\u000a<<endif>>
+p225
+sg23
+VDT1
+p226
+sg25
+g26
+((I2015
+I4
+I21
+I5
+I59
+I31
+I1
+I111
+I1
+tp227
+(dp228
+tp229
+Rp230
+sg31
+(lp231
+VDream
+p232
+asg33
+g26
+((I2015
+I4
+I7
+I1
+I48
+I35
+I1
+I97
+I1
+tp233
+(dp234
+tp235
+Rp236
+sbsa(dp237
+g14
+I00
+sg15
+(lp238
+F739.0
+aF289.0
+asg17
+(itiddlywiki
+Tiddler
+p239
+(dp240
+g21
+VMitch: Hmm, your name is Robert? That's some plain and boring name you got there!\u000a\u000aMitch: You are about as suspicious as Micheal over there. Definitely you are not someone whom I would feel close with. \u000a\u000aYou: What a strange guy... \u000a\u000aYou walk away as you find other people to talk with."\u000a\u000a<<if $talk eq 1>>\u000aYou look into other people to talk with.\u000a\u000a[[Greet Hank|F1][$talk=$talk+1]]\u000a[[Greet Dorothy|DT1][$talk=$talk+1]]\u000a<<endif>>\u000a<<if $talk eq 2>>\u000a[[You wake up and realize it was all a dream|R1]]\u000a<<endif>>
+p241
+sg23
+VV1
+p242
+sg25
+g26
+((I2015
+I4
+I27
+I0
+I41
+I40
+I0
+I117
+I1
+tp243
+(dp244
+tp245
+Rp246
+sg31
+(lp247
+VDream
+p248
+asg33
+g26
+((I2015
+I4
+I7
+I1
+I49
+I9
+I1
+I97
+I1
+tp249
+(dp250
+tp251
+Rp252
+sbsa(dp253
+g14
+I00
+sg15
+(lp254
+F447.0
+aF10.0
+asg17
+(itiddlywiki
+Tiddler
+p255
+(dp256
+g21
+V<<if $dorothy eq 1 && $extra eq 0>>\u000a\u000aDorothy: Professor, I know Robert well and I guarantee he's not someone who violates rules like that. Would you please reconsider?\u000a\u000aProfessor: Well, if that's the case. I will give him more time to prove himself.\u000a\u000a<<set $time=$time+ 2>>\u000a<<set $extra eq 1>>\u000a<<endif>>\u000a\u000aProfessor: So what proofs do you have this time? Did you find anything?"\u000a\u000aYou say: \u000a[[Yes, I do|Y1]]\u000a[[No, I still don't know|I1]]
+p257
+sg23
+VP1
+p258
+sg25
+g26
+((I2015
+I4
+I21
+I6
+I39
+I45
+I1
+I111
+I1
+tp259
+(dp260
+tp261
+Rp262
+sg31
+(lp263
+sg33
+g26
+((I2015
+I4
+I7
+I2
+I41
+I34
+I1
+I97
+I1
+tp264
+(dp265
+tp266
+Rp267
+sbsa(dp268
+g14
+I00
+sg15
+(lp269
+F1024.0
+aF8.0
+asg17
+(itiddlywiki
+Tiddler
+p270
+(dp271
+g21
+V"So who do you think is the real person behind all this?" The Professor asks.\u000a\u000a<<if visited ("J1")>>\u000a[[It's Jimmy|Y2][$jimmy=1]]\u000a<<endif>>\u000a<<if visited ("BF1")>>\u000a[[It's Michael|Y2][$michael=1]]\u000a<<endif>>\u000a[[Umm...|I1]]
+p272
+sg23
+VY1
+p273
+sg25
+g26
+((I2015
+I4
+I21
+I6
+I16
+I3
+I1
+I111
+I1
+tp274
+(dp275
+tp276
+Rp277
+sg31
+(lp278
+sg33
+g26
+((I2015
+I4
+I7
+I2
+I42
+I57
+I1
+I97
+I1
+tp279
+(dp280
+tp281
+Rp282
+sbsa(dp283
+g14
+I00
+sg15
+(lp284
+F1024.0
+aF148.0
+asg17
+(itiddlywiki
+Tiddler
+p285
+(dp286
+g21
+VProfessor: Oh really? What kind of proof do you have?"\u000a\u000a<<if visited ("T1") && $jimmy is 1>>\u000a[[I found a the Spider Man mask sticker|Y3][$proof=$proof+1]]\u000a<<endif>>\u000a<<if visited ("BF1") && $michael is 1>>\u000a<<set $michaelend = 1>>\u000a[[Blabbermouth Feed said he's suspicious|Y3][$wrong=1]]\u000a<<endif>>\u000a<<else>>\u000a[[Umm...|Y3]]
+p287
+sg23
+VY2
+p288
+sg25
+g26
+((I2015
+I4
+I27
+I0
+I19
+I3
+I0
+I117
+I1
+tp289
+(dp290
+tp291
+Rp292
+sg31
+(lp293
+sg33
+g26
+((I2015
+I4
+I7
+I2
+I45
+I13
+I1
+I97
+I1
+tp294
+(dp295
+tp296
+Rp297
+sbsa(dp298
+g14
+I00
+sg15
+(lp299
+F1024.0
+aF289.0
+asg17
+(itiddlywiki
+Tiddler
+p300
+(dp301
+g21
+V<<if $wrong is 1>>\u000aProfessor: I am sorry, Robert. But you really need more proofs than gossips.\u000a\u000a[[You leave the Professor's room emptyhanded|R1][$time=$time-1]]\u000a<<set $wrong = 0>>\u000a<<set $micheal = 0>>\u000a<<endif>>\u000a<<if $jimmy is 1>>\u000aProfessor: Why do you think he did that?\u000a\u000a<<if visited("J1")>>\u000a[[He was in need of good grades|Y4][$proof=$proof+1]]\u000a<<endif>>\u000a<<if visited("DreamL2")>>\u000a[[He was busy with other projects|Y4][$proof=$proof+1]]\u000a<<endif>>\u000a[[Umm...|Y4]]\u000a<<endif>>
+p302
+sg23
+VY3
+p303
+sg25
+g26
+((I2015
+I4
+I27
+I0
+I30
+I4
+I0
+I117
+I1
+tp304
+(dp305
+tp306
+Rp307
+sg31
+(lp308
+sg33
+g26
+((I2015
+I4
+I7
+I2
+I46
+I35
+I1
+I97
+I1
+tp309
+(dp310
+tp311
+Rp312
+sbsa(dp313
+g14
+I00
+sg15
+(lp314
+F447.0
+aF289.0
+asg17
+(itiddlywiki
+Tiddler
+p315
+(dp316
+g21
+VYou walk around Jittery Java Beans to get something to eat. \u000a\u000a<<if visited ("SC1") is 1>>\u000aNear a table, you find Jimmy sitting with Mitch.\u000a\u000a[[Hmm, what are they up to?|SC2]]\u000a[[Ignore them|BF1]]\u000a<<endif>>\u000a\u000a<<if visited ("SC1") > 1>> \u000aYou take a cup of coffee from the working student. After a sap of coffee, you wonder what to do next. You notice Micheal quietly tracking you from behind but running away once you look into his direction.\u000a\u000a[[Go to the library|L1]]\u000a[[Go to the fraternity house|D1]]\u000a[[Wander around the campus|B1]]\u000a[[Check the phone|BF1]]\u000a<<endif>>\u000a<<if visited ("DreamL3") && $dorothy eq 0 >>\u000a[[Try to study|S1]]\u000a<<endif>>
+p317
+sg23
+VSC1
+p318
+sg25
+g26
+((I2015
+I4
+I27
+I0
+I58
+I58
+I0
+I117
+I1
+tp319
+(dp320
+tp321
+Rp322
+sg31
+(lp323
+sg33
+g26
+((I2015
+I4
+I7
+I2
+I55
+I3
+I1
+I97
+I1
+tp324
+(dp325
+tp326
+Rp327
+sbsa(dp328
+g14
+I00
+sg15
+(lp329
+F447.0
+aF571.0
+asg17
+(itiddlywiki
+Tiddler
+p330
+(dp331
+g21
+VJimmy: Do you think I will be all right?"\u000a\u000aMitch: Yeah, who would have guessed that it was Robert the self-rightous, hahaha!"\u000a\u000aYou feel angry but know fighting him will only make the situation even worse.\u000a\u000a[[Go to the library|L1]]\u000a[[Go to the fraternity house|D1]]\u000a[[Wander around the campus|B1]]
+p332
+sg23
+VSC2
+p333
+sg25
+g26
+((I2015
+I4
+I21
+I5
+I40
+I42
+I1
+I111
+I1
+tp334
+(dp335
+tp336
+Rp337
+sg31
+(lp338
+sg33
+g26
+((I2015
+I4
+I7
+I2
+I57
+I13
+I1
+I97
+I1
+tp339
+(dp340
+tp341
+Rp342
+sbsa(dp343
+g14
+I00
+sg15
+(lp344
+F592.0
+aF431.0
+asg17
+(itiddlywiki
+Tiddler
+p345
+(dp346
+g21
+VMichael: He.. Hello.\u000a\u000aYou: Hi, what's going on?\u000a\u000aMichael: No.. nothing... I.. I get... v.. very... nervous when there are... many people... Ha ha...\u000a\u000aYou: Well, cheer up, Michael. It's not like you are doing wrong things, right?\u000a\u000aMichael: Y.. Yes... Thanks about that...\u000a\u000aYou look into other people to talk with.\u000a\u000a<<if $talk eq 1>>\u000a[[Greet Jimmy|J1][$talk=$talk+1]]\u000a<<if visited ("DT1")>>\u000a[[Greet Dorothy|DT2][$talk=$talk+1]]\u000a<<endif>>\u000a<<endif>>\u000a<<if $talk eq 2>>\u000a[[You wake up and realize it was all a dream|R1][$time=$time-1]]\u000a<<endif>> 
+p347
+sg23
+VF2
+p348
+sg25
+g26
+((I2015
+I4
+I27
+I0
+I42
+I18
+I0
+I117
+I1
+tp349
+(dp350
+tp351
+Rp352
+sg31
+(lp353
+VDream
+p354
+asg33
+g26
+((I2015
+I4
+I7
+I3
+I6
+I28
+I1
+I97
+I1
+tp355
+(dp356
+tp357
+Rp358
+sbsa(dp359
+g14
+I00
+sg15
+(lp360
+F739.0
+aF431.0
+asg17
+(itiddlywiki
+Tiddler
+p361
+(dp362
+g21
+VJimmy: Hello, I think I remember you from our physics class.\u000a\u000aYou: Hi, are you studying well?" You reply back.\u000a\u000aJimmy: Umm... Yeah. I really need that A to qualify for my scholarship."\u000a\u000aYou: Well, I think you are going to do all right.\u000a\u000aJimmy: Thanks, but I have to make a phonecall to my friend. Please excuse me. Is that you? M...\u000a\u000a<<if $talk eq 1>>\u000a<<if visited ("DT1")>>\u000a[[Greet Dorothy|DT2][$talk=$talk+1]]\u000a<<endif>>\u000a[[Greet Micheal|F2][$talk=$talk+1]]\u000a<<endif>>\u000a<<if $talk eq 2>>\u000a[[You wake up and realize it was all a dream|R1][$time=$time-1]]\u000a<<endif>>
+p363
+sg23
+VJ1
+p364
+sg25
+g26
+((I2015
+I4
+I27
+I0
+I42
+I3
+I0
+I117
+I1
+tp365
+(dp366
+tp367
+Rp368
+sg31
+(lp369
+VDream
+p370
+asg33
+g26
+((I2015
+I4
+I7
+I3
+I6
+I28
+I1
+I97
+I1
+tp371
+(dp372
+tp373
+Rp374
+sbsa(dp375
+g14
+I00
+sg15
+(lp376
+F592.0
+aF571.0
+asg17
+(itiddlywiki
+Tiddler
+p377
+(dp378
+g21
+VDorothy: Hi, Robert. Thanks for cheering me up when my puppy died. I really appreciated it. If I can do something to pay back... You seem worried, is that anything I can help you?\u000a\u000aYou: Not really, it's just I have a physics test coming and my grades are awful right now.\u000a\u000aDorothy: Well, then I think I can be a help. I was actually the second best student at physics at my high school.\u000a\u000a<<if $talk eq 1>>\u000a[[Greet Jimmy|J1][$talk=$talk+1]]\u000a[[Greet Micheal|F2][$talk=$talk+1]]\u000a<<endif>>\u000a<<if $talk eq 2>>\u000a[[You wake up and realize it was all a dream|R1][$time=$time-1]]\u000a<<endif>>
+p379
+sg23
+VDT2
+p380
+sg25
+g26
+((I2015
+I4
+I21
+I12
+I50
+I7
+I1
+I111
+I1
+tp381
+(dp382
+tp383
+Rp384
+sg31
+(lp385
+VDream
+p386
+asg33
+g26
+((I2015
+I4
+I7
+I3
+I6
+I28
+I1
+I97
+I1
+tp387
+(dp388
+tp389
+Rp390
+sbsa(dp391
+g14
+I00
+sg15
+(lp392
+F1024.0
+aF430.0
+asg17
+(itiddlywiki
+Tiddler
+p393
+(dp394
+g21
+V"If so, how can you explain your grades for this test?"\u000a\u000a<<if $dorothy is 1>>\u000a[["Dorothy here helped me.|Y5][$proof=$proof+2]]\u000a<<endif>>\u000a[["I did my best.|Y6][$proof=$proof+1]]\u000a[[Umm...|Y6]]
+p395
+sg23
+VY4
+p396
+sg25
+g26
+((I2015
+I4
+I27
+I0
+I29
+I27
+I0
+I117
+I1
+tp397
+(dp398
+tp399
+Rp400
+sg31
+(lp401
+sg33
+g26
+((I2015
+I4
+I7
+I3
+I50
+I49
+I1
+I97
+I1
+tp402
+(dp403
+tp404
+Rp405
+sbsa(dp406
+g14
+I00
+sg15
+(lp407
+F1174.0
+aF430.0
+asg17
+(itiddlywiki
+Tiddler
+p408
+(dp409
+g21
+V<<if $dorothy is 1>> \u000a"Well, professor. I was helping Robert with your test and I can say he is a very honest and righteous guy. Please believe us. I guarantee it." Daisy backs you up.\u000a\u000a[[Next|Y6]]\u000a<<endif>>
+p410
+sg23
+VY5
+p411
+sg25
+g26
+((I2015
+I4
+I26
+I23
+I50
+I46
+I6
+I116
+I1
+tp412
+(dp413
+tp414
+Rp415
+sg31
+(lp416
+sg33
+g26
+((I2015
+I4
+I7
+I5
+I12
+I31
+I1
+I97
+I1
+tp417
+(dp418
+tp419
+Rp420
+sbsa(dp421
+g14
+I00
+sg15
+(lp422
+F1175.0
+aF289.0
+asg17
+(itiddlywiki
+Tiddler
+p423
+(dp424
+g21
+V<<if $proof >= 3>>\u000aThe Professor says "Well, I think that's enough to prove your innocence. I will contact Jimmy soon to talk about this matter."\u000a\u000a[[You have finally proven your innocence|GE]]\u000a<<endif>>\u000a<<if $proof < 3>>\u000aThe Professor says, "Well, I think your argument is plausible, but it's not enough to convince me otherwise."\u000a\u000a[[You leave the Professor's room emptyhanded|R1][$time=$time-1]]\u000a<<set $jimmy = 0>>\u000a<<endif>>
+p425
+sg23
+VY6
+p426
+sg25
+g26
+((I2015
+I4
+I27
+I0
+I38
+I3
+I0
+I117
+I1
+tp427
+(dp428
+tp429
+Rp430
+sg31
+(lp431
+sg33
+g26
+((I2015
+I4
+I7
+I5
+I16
+I39
+I1
+I97
+I1
+tp432
+(dp433
+tp434
+Rp435
+sbsa(dp436
+g14
+I00
+sg15
+(lp437
+F1321.9102167182666
+aF288.93343653250764
+asg17
+(itiddlywiki
+Tiddler
+p438
+(dp439
+g21
+VYou have proven Jimmy's guilt and everything goes smooth after. Jimmy confessed his doings and everyone apologizes for suspecting you.\u000a\u000a<<if $michaelend eq 0 && $dorothy eq 0>>\u000aFew days later, Micheal comes to you nervously.\u000a\u000aMicheal: R.. Robert...\u000a\u000aYou: What's going on Micheal?\u000a\u000aMichael: I.. I think.. I must.. say it.. now... I was.. in love.. with you.. Since.. We first met...\u000a\u000aYou: What? Is that why you have been nervous lately?\u000a\u000aMichael: Y.. Yes... didn't.. have courage.. to say it.. until now...\u000a\u000aWell, that solves every mystery about Michael's doings.\u000a<<endif>>\u000a\u000a<<if $dorothy eq 1>>\u000aYou: I couldn't have done this without you, Dorothy.\u000a\u000aDorothy: No problem, true friends trust each other despite circumstances and differences.\u000a\u000aYou: I don't know what to say, but would you please accept my love? You were the only one stood behind me, and I will be the only one to do the same with you.\u000a\u000aDorothy: Well, okay. Thanks, Robert...\u000a<<endif>>\u000a\u000a-Good Ending-\u000a\u000a[[Restart|Start][state.restart()]]
+p440
+sg23
+VGE
+p441
+sg25
+g26
+((I2015
+I4
+I27
+I0
+I57
+I10
+I0
+I117
+I1
+tp442
+(dp443
+tp444
+Rp445
+sg31
+(lp446
+sg33
+g26
+((I2015
+I4
+I7
+I12
+I50
+I19
+I1
+I97
+I1
+tp447
+(dp448
+tp449
+Rp450
+sbsa(dp451
+g14
+I00
+sg15
+(lp452
+F881.879347808857
+aF430.128482972136
+asg17
+(itiddlywiki
+Tiddler
+p453
+(dp454
+g21
+V<<if visited() % 3 is 0>>\u000aYou turn on your phone and explore the web. You somehow managed to come across a Blabbermouth feed which says "What's wrong with that Micheal guy? My keen senses detect he must be feeling guilty about something!"\u000a<<endif>>\u000a\u000a<<if visited() % 3 is 1>>\u000aYou turn on your phone and explore the web. You somehow managed to come across a Blabbermouth feed which says "Today, Micheal was seen wandering around the campus like he's very nervous."\u000a<<endif>>\u000a\u000a<<if visited() % 3 is 2>>\u000aYou turn on your phone and explore the web. You somehow managed to come across a Blabbermouth feed which says "I believe Micheal is planning something big lately. Be careful!"\u000a<<endif>>\u000a\u000a[[Go to the library|L1]]\u000a[[Go to the fraternity house|D1]]
+p455
+sg23
+VBF1
+p456
+sg25
+g26
+((I2015
+I4
+I21
+I5
+I48
+I56
+I1
+I111
+I1
+tp457
+(dp458
+tp459
+Rp460
+sg31
+(lp461
+sg33
+g26
+((I2015
+I4
+I16
+I2
+I40
+I2
+I3
+I106
+I1
+tp462
+(dp463
+tp464
+Rp465
+sbsa(dp466
+g14
+I00
+sg15
+(lp467
+F164.72755417956677
+aF149.7523219814242
+asg17
+(itiddlywiki
+Tiddler
+p468
+(dp469
+g21
+VYou wander around the campus wondering about what to do next. Eventually, you lie down on a bench at school grounds.\u000a\u000a[[Rest and sleep|DA1]]\u000a[[Check the phone|BF1]]
+p470
+sg23
+VB1
+p471
+sg25
+g26
+((I2015
+I4
+I21
+I12
+I40
+I6
+I1
+I111
+I1
+tp472
+(dp473
+tp474
+Rp475
+sg31
+(lp476
+sg33
+g26
+((I2015
+I4
+I16
+I12
+I1
+I0
+I3
+I106
+I1
+tp477
+(dp478
+tp479
+Rp480
+sbsa(dp481
+g14
+I00
+sg15
+(lp482
+F164.1625386996897
+aF290.19195046439626
+asg17
+(itiddlywiki
+Tiddler
+p483
+(dp484
+g21
+VYou find yourself at your dreams. You are back at the library where you went a week ago to study, sitting down at one of the chairs.\u000a\u000aAt a table across yours, you find a group of people talking.\u000a\u000a[[Hmm. I wonder what's going on?|DreamL2]]\u000a<<if visited ("DT2")>>\u000a[[I should wait for her|DreamL3]]\u000a<<endif>>
+p485
+sg23
+VDreamL1
+p486
+sg25
+g26
+((I2015
+I4
+I21
+I12
+I40
+I56
+I1
+I111
+I1
+tp487
+(dp488
+tp489
+Rp490
+sg31
+(lp491
+VDream
+p492
+asg33
+g26
+((I2015
+I4
+I16
+I15
+I22
+I14
+I3
+I106
+I1
+tp493
+(dp494
+tp495
+Rp496
+sbsa(dp497
+g14
+I00
+sg15
+(lp498
+F164.43644166482747
+aF429.8538532636993
+asg17
+(itiddlywiki
+Tiddler
+p499
+(dp500
+g21
+VYou find a group of people talking about their group project.\u000a\u000aPaul: Remember that our project is due this Friday. We need to make sure we get things done right to get a good grade.\u000a\u000aJimmy: Can you give me some break? Because I have a test on the same day.\u000a\u000aJulie: Don't you think we also have our own businesses too? Okay, let's meet at Thursday together to make sure we finish everything.\u000a\u000aJimmy:....\u000a\u000aYou look away before they start noticing you.\u000a\u000a[[You wake up and realize it was all a dream|R1][$time=$time-1]]
+p501
+sg23
+VDreamL2
+p502
+sg25
+g26
+((I2015
+I4
+I21
+I12
+I41
+I40
+I1
+I111
+I1
+tp503
+(dp504
+tp505
+Rp506
+sg31
+(lp507
+VDream
+p508
+asg33
+g26
+((I2015
+I4
+I20
+I0
+I39
+I30
+I0
+I110
+I1
+tp509
+(dp510
+tp511
+Rp512
+sbsa(dp513
+g14
+I00
+sg15
+(lp514
+F9.62693498452015
+aF429.1297584310149
+asg17
+(itiddlywiki
+Tiddler
+p515
+(dp516
+g21
+Vhtml {\u000a  /* Vertical colour gradient */\u000a  background-attachment: fixed;\u000a\u000a  /* Fallback colour */\u000a  background-color: rgba(246,246,246,0.7);\u000a}\u000abody {\u000a  /* Remove default styles */\u000a  background-color: rgba(246,246,246, 0.7);\u000a  margin-left: 18.2em;\u000a  margin-bottom: 18.2em; \u000a  position:auto;\u000a  font-size: 100%;\u000a  /* Used to center the box */\u000a  text-align: center;\u000a}\u000a\u000a#passages {\u000a  /* Box background (white with 70% opacity) */\u000a  background-color: rgba(246,246,246, 0.7);\u000a\u000a  /* Border */\u000a  border-color: rgba(25,25,139,0.7);\u000a  border-style: solid;\u000a  border-width: 8px;\u000a\u000a  /* Rounded corners */\u000a  border-radius: 1em;\u000a\u000a  /* Box width */\u000a  width: 100%;\u000a\u000a  /* Center the box */\u000a  display: inline-block;\u000a  min-height: 100%;\u000a  margin:auto;\u000a  margin-bottom: 0;\u000a  padding: 0px;\u000a}\u000a\u000a.passage {\u000a  margin: 10px;\u000a  /* Inner margin within the box */\u000a  padding: 2em;\u000a\u000a  /* Text formatting */\u000a  color: black;\u000a  font-size: 100%;\u000a  text-align:left;\u000a}\u000a\u000a.passage img {\u000a	display: block;\u000a	height: auto;\u000a	max-width: 100%;\u000a}\u000a\u000a/* sidebar */\u000a#sidebar {\u000a  left: 1em;\u000a  width: 20%;\u000a  font-family: "Alegreya Sans","Century Gothic",sans-serif !important;\u000a}\u000a\u000a#restart {\u000a  font-weight:inherit !important;\u000a  text-decoration: underline !important;\u000a  color: #00F !important;\u000a}\u000a\u000a#sidebar li {\u000a  color: black !important;\u000a  text-align: left;\u000a  opacity: 0.5;\u000a}\u000a#sidebar #storyTitle {\u000a  font-size: 100%;\u000a  line-height:0.8em;\u000a}\u000a#sidebar #storySubtitle {\u000a  font-size: 80%;\u000a  line-height:0.8em;\u000a}\u000a#sidebar > :not(.storyElement) {\u000a  display:none;\u000a}\u000a\u000a/* Links */\u000aa.internalLink, a.externalLink {\u000a  color: light blue;\u000a}\u000aa.internalLink:hover, a.externalLink:hover {\u000a  color: rgb(25,25,139);\u000a  text-decoration: none;\u000a}\u000a\u000a/* Shrink the page when viewed on devices with a low screen width */\u000a@media screen and (max-width: 960px) {\u000a  .passage { font-size: 90%;}\u000a  #passages { width: 70%; }\u000a}\u000a@media screen and (max-width: 840px) {\u000a  .passage {  font-size: 87.5%; }\u000a  #passages { width: 80%; }\u000a}\u000a@media screen and (max-width: 720px) {\u000a  .passage { font-size: 75%; }\u000a  #passages { width: 90%; }\u000a}
+p517
+sg23
+VStylesheet
+p518
+sg25
+g26
+((I2015
+I4
+I21
+I11
+I55
+I12
+I1
+I111
+I1
+tp519
+(dp520
+tp521
+Rp522
+sg31
+(lp523
+Vstylesheet
+p524
+asg33
+g26
+((I2015
+I4
+I20
+I0
+I45
+I3
+I0
+I110
+I1
+tp525
+(dp526
+tp527
+Rp528
+sbsa(dp529
+g14
+I00
+sg15
+(lp530
+F10.309964552973609
+aF570.0039385584871
+asg17
+(itiddlywiki
+Tiddler
+p531
+(dp532
+g21
+Vhtml {\u000a  /* Vertical colour gradient */\u000a  background-attachment: fixed;\u000a\u000a  /* Fallback colour */\u000a  background-color: rgba(150,255,200,0.7);\u000a}\u000abody {\u000a  /* Remove default styles */\u000a  background-color: rgba(150,255,200, 0.7);\u000a  margin-left: 18.2em;\u000a  margin-bottom: 18.2em; \u000a  position:auto;\u000a  font-size: 100%;\u000a  /* Used to center the box */\u000a  text-align: center;\u000a}\u000a\u000a#passages {\u000a  /* Box background (white with 70% opacity) */\u000a  background-color: rgba(150,255,200, 0.7);\u000a\u000a  /* Border */\u000a  border-color: rgba(25,25,139,0.7);\u000a  border-style: solid;\u000a  border-width: 8px;\u000a\u000a  /* Rounded corners */\u000a  border-radius: 1em;\u000a\u000a  /* Box width */\u000a  width: 100%;\u000a\u000a  /* Center the box */\u000a  display: inline-block;\u000a  min-height: 100%;\u000a  margin:auto;\u000a  margin-bottom: 0;\u000a  padding: 0px;\u000a}\u000a\u000a.passage {\u000a  margin: 10px;\u000a  /* Inner margin within the box */\u000a  padding: 2em;\u000a\u000a  /* Text formatting */\u000a  color: black;\u000a  font-size: 100%;\u000a  text-align:left;\u000a}\u000a\u000a.passage img {\u000a	display: block;\u000a	height: auto;\u000a	max-width: 100%;\u000a}\u000a\u000a/* sidebar */\u000a#sidebar {\u000a  left: 1em;\u000a  width: 20%;\u000a  font-family: "Alegreya Sans","Century Gothic",sans-serif !important;\u000a}\u000a\u000a#restart {\u000a  font-weight:inherit !important;\u000a  text-decoration: underline !important;\u000a  color: #00F !important;\u000a}\u000a\u000a#sidebar li {\u000a  color: black !important;\u000a  text-align: left;\u000a  opacity: 0.5;\u000a}\u000a#sidebar #storyTitle {\u000a  font-size: 100%;\u000a  line-height:0.8em;\u000a}\u000a#sidebar #storySubtitle {\u000a  font-size: 80%;\u000a  line-height:0.8em;\u000a}\u000a#sidebar > :not(.storyElement) {\u000a  display:none;\u000a}\u000a\u000a/* Links */\u000aa.internalLink, a.externalLink {\u000a  color: blue;\u000a}\u000aa.internalLink:hover, a.externalLink:hover {\u000a  color: rgb(25,25,139);\u000a  text-decoration: none;\u000a}\u000a\u000a/* Shrink the page when viewed on devices with a low screen width */\u000a@media screen and (max-width: 960px) {\u000a  .passage { font-size: 90%;}\u000a  #passages { width: 70%; }\u000a}\u000a@media screen and (max-width: 840px) {\u000a  .passage {  font-size: 87.5%; }\u000a  #passages { width: 80%; }\u000a}\u000a@media screen and (max-width: 720px) {\u000a  .passage { font-size: 75%; }\u000a  #passages { width: 90%; }\u000a}
+p533
+sg23
+VDream
+p534
+sg25
+g26
+((I2015
+I4
+I21
+I11
+I55
+I5
+I1
+I111
+I1
+tp535
+(dp536
+tp537
+Rp538
+sg31
+(lp539
+Vstylesheet
+p540
+aVDream
+p541
+asg33
+g26
+((I2015
+I4
+I20
+I22
+I19
+I58
+I0
+I110
+I1
+tp542
+(dp543
+tp544
+Rp545
+sbsa(dp546
+g14
+I00
+sg15
+(lp547
+F163.29263489562823
+aF569.8444269397401
+asg17
+(itiddlywiki
+Tiddler
+p548
+(dp549
+g21
+VYou meet Dorothy who just arrived.\u000a\u000aDorothy: Hi, so should we begin our studies now?\u000a\u000aYou: Of course. I can't thank you enough, Dorothy.\u000a\u000aDorothy: Don't worry about a thing. If you need more help, you know where I am usually at. If you didn't, I am at Jittery Java Beans. I will try to talk when I find you.\u000a\u000a[[You wake up and realize it was all a dream|R1][$time=$time-1]]
+p550
+sg23
+VDreamL3
+p551
+sg25
+g26
+((I2015
+I4
+I21
+I12
+I42
+I19
+I1
+I111
+I1
+tp552
+(dp553
+tp554
+Rp555
+sg31
+(lp556
+VDream
+p557
+asg33
+g26
+((I2015
+I4
+I21
+I2
+I41
+I16
+I1
+I111
+I1
+tp558
+(dp559
+tp560
+Rp561
+sbsa(dp562
+g14
+I00
+sg15
+(lp563
+F304.9105947223317
+aF568.962189838519
+asg17
+(itiddlywiki
+Tiddler
+p564
+(dp565
+g21
+VYou find a rare collector's edition Spider Man sticker from one of the tables. Someone who owns this outfit must be a real fan of the superhero.\u000a\u000a<<set $sticker eq 1>>\u000a\u000a[[Go to the fraternity house|D1]]\u000a[[Wander around the campus|B1]]\u000a[[Argue to the professor that you are innocent|P1]]\u000a<<if visited("V1")>>\u000a[[Go to Jittery Java Beans|SC1]]\u000a<<endif>>
+p566
+sg23
+VT1
+p567
+sg25
+g26
+((I2015
+I4
+I27
+I0
+I33
+I6
+I0
+I117
+I1
+tp568
+(dp569
+tp570
+Rp571
+sg31
+(lp572
+sg33
+g26
+((I2015
+I4
+I21
+I5
+I17
+I39
+I1
+I111
+I1
+tp573
+(dp574
+tp575
+Rp576
+sbsasS'scale'
+p577
+F0.6000000000000001
+sS'snapping'
+p578
+I00
+ss.
