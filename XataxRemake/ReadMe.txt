@@ -1,0 +1,1 @@
+An individual project done in C+ programming language. It's a sidescrolling shooter complete with HP, collision detection, victory/losing conditions.

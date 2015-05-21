@@ -1,0 +1,1 @@
+An individual project in Processing/Java. The main goal of the project was to create a program that would give the users interactive experiences through representations. I came up with this idea inspired by Chinese puzzle Tangram and Tetris.

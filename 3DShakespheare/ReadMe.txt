@@ -1,0 +1,1 @@
+This was a team project to recreate Shakespheare plays in 3D. I was in charge of directing this project and came up with each scenes presenteed here.
