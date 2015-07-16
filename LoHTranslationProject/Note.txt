@@ -1,0 +1,1 @@
+My personal project translating one of Korean mods of Legend of Cao Cao. Translations complete on script lines/spell description/unit description. Also adjusted values, scenes, difficulties accordingly to the original game's difficulty and gameplay.
